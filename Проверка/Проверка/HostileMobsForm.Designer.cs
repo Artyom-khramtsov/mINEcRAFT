@@ -37,11 +37,10 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.Location = new System.Drawing.Point(340, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 20);
+            this.label1.Size = new System.Drawing.Size(1098, 400);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
@@ -66,11 +65,10 @@
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(13, 522);
+            this.label3.Location = new System.Drawing.Point(13, 469);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 25);
+            this.label3.Size = new System.Drawing.Size(1446, 462);
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -87,6 +85,7 @@
             this.Controls.Add(this.label1);
             this.Name = "HostileMobsForm";
             this.Text = "HostileMobs";
+            this.Load += new System.EventHandler(this.HostileMobsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
