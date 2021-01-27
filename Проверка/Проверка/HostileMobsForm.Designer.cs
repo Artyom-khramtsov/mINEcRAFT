@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,10 +65,14 @@
             // 
             // label3
             // 
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(13, 469);
+            this.label3.Location = new System.Drawing.Point(12, 534);
+            this.label3.Multiline = true;
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1446, 462);
+            this.label3.ReadOnly = true;
+            this.label3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.label3.Size = new System.Drawing.Size(1452, 417);
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -97,6 +101,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox label3;
     }
 }
