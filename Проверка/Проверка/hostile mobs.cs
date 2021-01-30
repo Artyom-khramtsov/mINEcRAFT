@@ -39,5 +39,23 @@ namespace Проверка
             HostileMobsForm form = new HostileMobsForm("Крипер");
             form.Show();
         }
+
+        private void building_Click(object sender, EventArgs e)
+        {
+            HostileMobsForm form = new HostileMobsForm("Утопленник");
+            form.Show();
+        }
+
+        private void mechanisms_Click(object sender, EventArgs e)
+        {
+            HostileMobsForm form = new HostileMobsForm("Древний страж");
+            form.Show();
+        }
+
+        private void redstone_Click(object sender, EventArgs e)
+        {
+            HostileMobsForm form = new HostileMobsForm("Чешуйница Края");
+            form.Show();
+        }
     }
 }
