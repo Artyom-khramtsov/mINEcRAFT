@@ -142,12 +142,12 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(900, 321);
+            this.label3.Location = new System.Drawing.Point(826, 321);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 29);
+            this.label3.Size = new System.Drawing.Size(248, 29);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Блоки";
+            this.label3.Text = "Приручаемые мобы";
             // 
             // building
             // 
@@ -191,12 +191,12 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(164, 684);
+            this.label5.Location = new System.Drawing.Point(128, 684);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 29);
+            this.label5.Size = new System.Drawing.Size(249, 29);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Постройки";
+            this.label5.Text = "Создаваемые мобы";
             // 
             // label6
             // 
@@ -217,12 +217,12 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(882, 684);
+            this.label7.Location = new System.Drawing.Point(905, 684);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 29);
+            this.label7.Size = new System.Drawing.Size(87, 29);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Редстоун";
+            this.label7.Text = "Боссы";
             // 
             // MineWiki
             // 
