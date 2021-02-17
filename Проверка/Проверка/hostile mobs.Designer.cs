@@ -31,33 +31,58 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mobs));
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.redstone = new System.Windows.Forms.PictureBox();
-            this.mechanisms = new System.Windows.Forms.PictureBox();
-            this.building = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.blocks = new System.Windows.Forms.PictureBox();
-            this.animals = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.redstone)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mechanisms)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.building)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blocks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.animals)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -69,241 +94,471 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Поиск";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(300, 31);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(500, 22);
             this.textBox1.TabIndex = 5;
             // 
-            // label7
+            // label13
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(853, 753);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(213, 29);
-            this.label7.TabIndex = 32;
-            this.label7.Text = "Чешуйница Края";
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label13.ForeColor = System.Drawing.Color.Red;
+            this.label13.Location = new System.Drawing.Point(199, 1835);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(105, 29);
+            this.label13.TabIndex = 50;
+            this.label13.Text = "Фантом";
             // 
-            // label6
+            // pictureBox13
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(510, 752);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(192, 29);
-            this.label6.TabIndex = 31;
-            this.label6.Text = "Древний страж";
+            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(91, 1522);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 49;
+            this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label5
+            // label14
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(177, 752);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(151, 29);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "Утопленник";
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label14.ForeColor = System.Drawing.Color.Red;
+            this.label14.Location = new System.Drawing.Point(495, 1835);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(216, 29);
+            this.label14.TabIndex = 48;
+            this.label14.Text = "Жестокий пиглин";
             // 
-            // redstone
+            // pictureBox14
             // 
-            this.redstone.BackColor = System.Drawing.Color.Transparent;
-            this.redstone.Image = ((System.Drawing.Image)(resources.GetObject("redstone.Image")));
-            this.redstone.Location = new System.Drawing.Point(791, 439);
-            this.redstone.Name = "redstone";
-            this.redstone.Size = new System.Drawing.Size(300, 300);
-            this.redstone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.redstone.TabIndex = 29;
-            this.redstone.TabStop = false;
-            this.redstone.Click += new System.EventHandler(this.redstone_Click);
+            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(441, 1522);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 47;
+            this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
-            // mechanisms
+            // label15
             // 
-            this.mechanisms.BackColor = System.Drawing.Color.Transparent;
-            this.mechanisms.Image = ((System.Drawing.Image)(resources.GetObject("mechanisms.Image")));
-            this.mechanisms.Location = new System.Drawing.Point(441, 439);
-            this.mechanisms.Name = "mechanisms";
-            this.mechanisms.Size = new System.Drawing.Size(300, 300);
-            this.mechanisms.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.mechanisms.TabIndex = 28;
-            this.mechanisms.TabStop = false;
-            this.mechanisms.Click += new System.EventHandler(this.mechanisms_Click);
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label15.ForeColor = System.Drawing.Color.Red;
+            this.label15.Location = new System.Drawing.Point(881, 1834);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(140, 29);
+            this.label15.TabIndex = 46;
+            this.label15.Text = "Разбойник";
             // 
-            // building
+            // pictureBox15
             // 
-            this.building.BackColor = System.Drawing.Color.Transparent;
-            this.building.Image = ((System.Drawing.Image)(resources.GetObject("building.Image")));
-            this.building.Location = new System.Drawing.Point(91, 439);
-            this.building.Name = "building";
-            this.building.Size = new System.Drawing.Size(300, 300);
-            this.building.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.building.TabIndex = 27;
-            this.building.TabStop = false;
-            this.building.Click += new System.EventHandler(this.building_Click);
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(800, 1522);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 45;
+            this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // label3
+            // label19
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(891, 389);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 29);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "Крипер";
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label19.ForeColor = System.Drawing.Color.Red;
+            this.label19.Location = new System.Drawing.Point(199, 2549);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(97, 29);
+            this.label19.TabIndex = 62;
+            this.label19.Text = "Скелет";
             // 
-            // label2
+            // pictureBox19
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(500, 394);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 29);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Зомби-наездник";
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(91, 2238);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 61;
+            this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
-            // label1
+            // label20
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(191, 394);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 29);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Ифрит";
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label20.ForeColor = System.Drawing.Color.Red;
+            this.label20.Location = new System.Drawing.Point(531, 2549);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(113, 29);
+            this.label20.TabIndex = 60;
+            this.label20.Text = "Слизень";
             // 
-            // blocks
+            // pictureBox20
             // 
-            this.blocks.BackColor = System.Drawing.Color.Transparent;
-            this.blocks.Image = ((System.Drawing.Image)(resources.GetObject("blocks.Image")));
-            this.blocks.Location = new System.Drawing.Point(791, 89);
-            this.blocks.Margin = new System.Windows.Forms.Padding(4);
-            this.blocks.Name = "blocks";
-            this.blocks.Size = new System.Drawing.Size(300, 300);
-            this.blocks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.blocks.TabIndex = 23;
-            this.blocks.TabStop = false;
-            this.blocks.Click += new System.EventHandler(this.blocks_Click);
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(441, 2238);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 59;
+            this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
-            // animals
+            // label21
             // 
-            this.animals.BackColor = System.Drawing.Color.Transparent;
-            this.animals.Image = ((System.Drawing.Image)(resources.GetObject("animals.Image")));
-            this.animals.Location = new System.Drawing.Point(441, 89);
-            this.animals.Margin = new System.Windows.Forms.Padding(4);
-            this.animals.Name = "animals";
-            this.animals.Size = new System.Drawing.Size(300, 300);
-            this.animals.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.animals.TabIndex = 22;
-            this.animals.TabStop = false;
-            this.animals.Click += new System.EventHandler(this.animals_Click);
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label21.ForeColor = System.Drawing.Color.Red;
+            this.label21.Location = new System.Drawing.Point(836, 2548);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(216, 29);
+            this.label21.TabIndex = 58;
+            this.label21.Text = "Скелет-наездник";
             // 
-            // pictureBox1
+            // pictureBox21
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(91, 89);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 300);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(800, 2238);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 57;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
-            // label4
+            // label18
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(862, 1112);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(213, 29);
-            this.label4.TabIndex = 34;
-            this.label4.Text = "Чешуйница Края";
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label18.ForeColor = System.Drawing.Color.Red;
+            this.label18.Location = new System.Drawing.Point(883, 2192);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(147, 29);
+            this.label18.TabIndex = 56;
+            this.label18.Text = "Чешуйница";
             // 
-            // pictureBox2
+            // label17
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(800, 798);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(300, 300);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 33;
-            this.pictureBox2.TabStop = false;
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label17.ForeColor = System.Drawing.Color.Red;
+            this.label17.Location = new System.Drawing.Point(543, 2191);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(104, 29);
+            this.label17.TabIndex = 55;
+            this.label17.Text = "Шалкер";
             // 
-            // label8
+            // label16
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(503, 1112);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(213, 29);
-            this.label8.TabIndex = 36;
-            this.label8.Text = "Чешуйница Края";
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label16.ForeColor = System.Drawing.Color.Red;
+            this.label16.Location = new System.Drawing.Point(169, 2192);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(151, 29);
+            this.label16.TabIndex = 54;
+            this.label16.Text = "Разоритель";
             // 
-            // pictureBox3
+            // pictureBox18
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(441, 798);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(300, 300);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 35;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(800, 1878);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 53;
+            this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
-            // label9
+            // pictureBox17
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(153, 1112);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(213, 29);
-            this.label9.TabIndex = 38;
-            this.label9.Text = "Чешуйница Края";
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
+            this.pictureBox17.Location = new System.Drawing.Point(441, 1878);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 52;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
-            // pictureBox4
+            // pictureBox16
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(91, 798);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(300, 300);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 37;
-            this.pictureBox4.TabStop = false;
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
+            this.pictureBox16.Location = new System.Drawing.Point(91, 1878);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 51;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label25.ForeColor = System.Drawing.Color.Red;
+            this.label25.Location = new System.Drawing.Point(199, 3270);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(104, 29);
+            this.label25.TabIndex = 74;
+            this.label25.Text = "Ведьма";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(91, 2959);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 73;
+            this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox17_Click);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label26.ForeColor = System.Drawing.Color.Red;
+            this.label26.Location = new System.Drawing.Point(478, 3270);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(244, 29);
+            this.label26.TabIndex = 72;
+            this.label26.Text = "Скелет-иссушитель";
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
+            this.pictureBox26.Location = new System.Drawing.Point(441, 2959);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox26.TabIndex = 71;
+            this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox18_Click);
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label27.ForeColor = System.Drawing.Color.Red;
+            this.label27.Location = new System.Drawing.Point(913, 3269);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(95, 29);
+            this.label27.TabIndex = 70;
+            this.label27.Text = "Зоглин";
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(800, 2959);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox27.TabIndex = 69;
+            this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.pictureBox19_Click);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label24.ForeColor = System.Drawing.Color.Red;
+            this.label24.Location = new System.Drawing.Point(892, 2913);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(128, 29);
+            this.label24.TabIndex = 68;
+            this.label24.Text = "Поборник";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label23.ForeColor = System.Drawing.Color.Red;
+            this.label23.Location = new System.Drawing.Point(512, 2912);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(172, 29);
+            this.label23.TabIndex = 67;
+            this.label23.Text = "Досаждатель";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label22.ForeColor = System.Drawing.Color.Red;
+            this.label22.Location = new System.Drawing.Point(181, 2913);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(113, 29);
+            this.label22.TabIndex = 66;
+            this.label22.Text = "Зимогор";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(800, 2599);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 65;
+            this.pictureBox24.TabStop = false;
+            this.pictureBox24.Click += new System.EventHandler(this.pictureBox20_Click);
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(441, 2599);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 64;
+            this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox21_Click);
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(91, 2599);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 63;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click);
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label28.ForeColor = System.Drawing.Color.Red;
+            this.label28.Location = new System.Drawing.Point(199, 3625);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(89, 29);
+            this.label28.TabIndex = 78;
+            this.label28.Text = "Зомби";
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(91, 3314);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox28.TabIndex = 77;
+            this.pictureBox28.TabStop = false;
+            this.pictureBox28.Click += new System.EventHandler(this.pictureBox23_Click);
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label29.ForeColor = System.Drawing.Color.Red;
+            this.label29.Location = new System.Drawing.Point(500, 3625);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(181, 29);
+            this.label29.TabIndex = 76;
+            this.label29.Text = "Зомби-житель";
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(441, 3314);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox29.TabIndex = 75;
+            this.pictureBox29.TabStop = false;
+            this.pictureBox29.Click += new System.EventHandler(this.pictureBox24_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Ад",
+            "Край",
+            "Верхний мир"});
+            this.comboBox1.Location = new System.Drawing.Point(3, 29);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(270, 24);
+            this.comboBox1.TabIndex = 79;
+            this.comboBox1.Text = "В каком мире находится?";
             // 
             // Mobs
             // 
@@ -312,39 +567,65 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Gray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1182, 853);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.redstone);
-            this.Controls.Add(this.mechanisms);
-            this.Controls.Add(this.building);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.blocks);
-            this.Controls.Add(this.animals);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1203, 853);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.pictureBox28);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.pictureBox29);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.pictureBox25);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.pictureBox26);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.pictureBox27);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.pictureBox18);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.pictureBox13);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.pictureBox14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Mobs";
             this.Text = "Мобы";
             this.Load += new System.EventHandler(this.Mobs_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.redstone)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mechanisms)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.building)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blocks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.animals)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -354,23 +635,40 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox redstone;
-        private System.Windows.Forms.PictureBox mechanisms;
-        private System.Windows.Forms.PictureBox building;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox blocks;
-        private System.Windows.Forms.PictureBox animals;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox16;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.PictureBox pictureBox25;
+		private System.Windows.Forms.Label label26;
+		private System.Windows.Forms.PictureBox pictureBox26;
+		private System.Windows.Forms.Label label27;
+		private System.Windows.Forms.PictureBox pictureBox27;
+		private System.Windows.Forms.Label label24;
+		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.PictureBox pictureBox24;
+		private System.Windows.Forms.PictureBox pictureBox23;
+		private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
