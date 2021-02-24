@@ -16,114 +16,92 @@ namespace Проверка
         public Label label;
         public string name;
         public string land;
+
+        public Searchmobs(string name1, string land1)
+        {
+            name = name1;
+            land = land1;
+            label = new Label();
+            picture = new PictureBox();
+
+        }
     }
 
 
     public partial class Mobs : Form
     {
 
-        public Searchmobs[] mobs = new Searchmobs[30];
+        public Searchmobs[] mobs = new Searchmobs[29];
+        public List<Searchmobs> mob_list = new List<Searchmobs>();
 
         public Mobs()
         {
             InitializeComponent();
 
-            mobs[0] = new Searchmobs();
-            mobs[0].name = "Ифрит";
-            mobs[0].land = "Ад";
-
-            mobs[1] = new Searchmobs();
-            mobs[1].name = "Зомби-наездник";
-            mobs[1].land = "Верхний мир";
-
-            mobs[2] = new Searchmobs();
-            mobs[2].name = "Крипер";
-            mobs[2].land = "Верхний мир";
-
-            mobs[3] = new Searchmobs();
-            mobs[3].name = "Утопленник";
-            mobs[3].land = "Верхний мир";
-
-            mobs[4] = new Searchmobs();
-            mobs[4].name = "Древний страж";
-            mobs[4].land = "Верхний мир";
-
-            mobs[5] = new Searchmobs();
-            mobs[5].name = "Чешуйница Края";
-            mobs[5].land = "Верхний мир, Ад, Край";
-
-            mobs[6] = new Searchmobs();
-            mobs[6].name = "Вызыватель";
-            mobs[6].land = "Верхний мир";
-
-            mobs[7] = new Searchmobs();
-            mobs[7].name = "Гаст";
-            mobs[7].land = "Ад";
-
-            mobs[8] = new Searchmobs();
-            mobs[8].name = "Страж";
-            mobs[8].land = "Верхний мир";
-
-            mobs[9] = new Searchmobs();
-            mobs[9].name = "Хоглин";
-            mobs[9].land = "Ад";
-
-            mobs[10] = new Searchmobs();
-            mobs[10].name = "Кадавр";
-            mobs[10].land = "Верхний мир";
-
-            mobs[11] = new Searchmobs();
-            mobs[11].name = "Лавовый куб";
-            mobs[11].land = "Ад";
-
-            mobs[12] = new Searchmobs();
-            mobs[12].name = "Фантом";
-            mobs[12].picture = pictureBox13;
-            mobs[12].label = label13;
-            mobs[12].land = "Верхний мир";
-
-            mobs[13] = new Searchmobs();
-            mobs[13].name = "Жестокий пинглин";
-            mobs[13].picture = pictureBox14;
-            mobs[13].label = label14;
-            mobs[13].land = "Ад";
+            mob_list.Add(new Searchmobs("Ифрит", "Ад"));
+            mob_list.Add(new Searchmobs("Зомби-наездник", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Крипер", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Утопленник", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Древний страж", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Чешуйница Края", "Верхний мир, Ад, Край"));
+            mob_list.Add(new Searchmobs("Вызыватель", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Гаст", "Ад"));
+            mob_list.Add(new Searchmobs("Страж", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Хоглин", "Ад"));
+            mob_list.Add(new Searchmobs("Кадавр", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Лавовый куб", "Ад"));
+            mob_list.Add(new Searchmobs("Фантом", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Жестокий пинглин", "Ад"));
+            mob_list.Add(new Searchmobs("Разбойник", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Разоритель", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Шалкер", "Край"));
+            mob_list.Add(new Searchmobs("Чешуйница", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Скелет", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Cкелет-наездник", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Слизень", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Зимогор", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Досаждатель", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Поборник", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Ведьма", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Скелет-иссушитель", "Ад"));
+            mob_list.Add(new Searchmobs("Зоглин", "Ад"));
+            mob_list.Add(new Searchmobs("Зомби", "Верхний мир"));
+            mob_list.Add(new Searchmobs("Зомби-житель", "Верхний мир"));
 
             int x = 10;
             int y = 80;
-            for (int i = 0; i < 14; i++)
+            for (int i = 0; i < mob_list.Count; i++)
             {
 
-
-                PictureBox pb1 = new PictureBox();
-
-                pb1.BackColor = Color.Transparent;
-                pb1.Location = new Point(x, y);
-                pb1.Size = new Size(300, 300);
-                pb1.SizeMode = PictureBoxSizeMode.Zoom;
+                mob_list[i].picture.BackColor = Color.Transparent;
+                mob_list[i].picture.Tag = mob_list[i].name;
+                mob_list[i].picture.Location = new Point(x, y);
+                mob_list[i].picture.Size = new Size(300, 300);
+                mob_list[i].picture.SizeMode = PictureBoxSizeMode.Zoom;
+                mob_list[i].picture.Click += new EventHandler(OpenMob);
                 try
                 {
-                    pb1.Load("../../Мобы/" + mobs[i].name + ".gif");
+                    mob_list[i].picture.Load("../../Мобы/" + mob_list[i].name + ".gif");
                 }
                 catch (Exception)
                 {
-                    pb1.Load("../../Мобы/" + mobs[i].name + ".png");
+                    mob_list[i].picture.Load("../../Мобы/" + mob_list[i].name + ".png");
                 }
-                mobs[i].picture = pb1;
-                Controls.Add(pb1);
+                mobs[i].picture = mob_list[i].picture;
+                Controls.Add(mob_list[i].picture);
 
-                Label Lb1 = new Label();
-                Lb1.AutoSize = true;
-                Lb1.BackColor = Color.Transparent;
-                Lb1.ForeColor = Color.Red;
-                Lb1.Font = new Font("Microsoft Sans Serif", 15F);
-                Lb1.Location = new Point(x + 100, y + 300);
-                Lb1.Size = new Size(300, 29);
-                Lb1.TabIndex = 31;
-                Lb1.Text = mobs[i].name;
-                mobs[i].label = Lb1;
-                Controls.Add(Lb1);
 
-                x = x + 350;
+                mob_list[i].label.AutoSize = true;
+                mob_list[i].label.BackColor = Color.Transparent;
+                mob_list[i].label.ForeColor = Color.Red;
+                mob_list[i].label.Font = new Font("Microsoft Sans Serif", 15F);
+                mob_list[i].label.Location = new Point(x + 100, y + 300);
+                mob_list[i].label.Size = new Size(300, 29);
+                mob_list[i].label.TabIndex = 31;
+                mob_list[i].label.Text = mob_list[i].name;
+                Controls.Add(mob_list[i].label);
+
+                x = x + 300;
                 if(x + 300 > Width)
                 {
                     x = 10;
@@ -132,204 +110,34 @@ namespace Проверка
 
             }
         }
-        private void Mobs_Load(object sender, EventArgs e)
-        {
+       
 
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void OpenMob(object sender, EventArgs e)
         {
-            HostileMobsForm form = new HostileMobsForm("Ифрит");
-            form.Show();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Зомби-наездник");
-            form.Show();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Крипер");
-            form.Show();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Утопленник");
-            form.Show();
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Древний страж");
-            form.Show();
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Чешуйница Края");
-            form.Show();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Вызыватель");
-            form.Show();
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Гаст");
-            form.Show();
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Страж");
-            form.Show();
-        }
-
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Хоглин");
-            form.Show();
-        }
-
-        private void pictureBox11_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Кадавр");
-            form.Show();
-        }
-
-        private void pictureBox12_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Лавовый куб");
-            form.Show();
-        }
-
-        private void pictureBox13_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Фантом");
-            form.Show();
-        }
-
-        private void pictureBox14_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Жестокий пинглин");
-            form.Show();
-        }
-
-        private void pictureBox15_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Разбойник");
-            form.Show();
-        }
-
-        private void pictureBox16_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Разоритель");
-            form.Show();
-        }
-
-        private void pictureBox17_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Шалкер");
-            form.Show();
-        }
-
-        private void pictureBox18_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Чешуйница");
-            form.Show();
-        }
-
-        private void pictureBox19_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Скелет");
-            form.Show();
-        }
-
-        private void pictureBox20_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Слизень");
-            form.Show();
-        }
-
-        private void pictureBox21_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Cкелет-наездник");
-            form.Show();
-        }
-
-        private void pictureBox22_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Зимогор");
-            form.Show();
-        }
-
-        private void pictureBox23_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Досаждатель");
-            form.Show();
-        }
-
-        private void pictureBox24_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Поборник");
-            form.Show();
-        }
-
-        private void pictureBox25_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Ведьма");
-            form.Show();
-        }
-
-        private void pictureBox26_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Скелет-иссушитель");
-            form.Show();
-        }
-
-        private void pictureBox27_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Зоглин");
-            form.Show();
-        }
-
-        private void pictureBox28_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Зомби");
-            form.Show();
-        }
-
-        private void pictureBox29_Click(object sender, EventArgs e)
-        {
-            HostileMobsForm form = new HostileMobsForm("Зомби-житель");
+            PictureBox picture = (PictureBox)sender;
+            MobForm form = new MobForm(picture.Tag.ToString());
             form.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 14; i++)
+            for (int i = 0; i < mob_list.Count; i++)
             {
-                mobs[i].picture.Visible = true;
-                mobs[i].label.Visible = true;
+                mob_list[i].picture.Visible = true;
+                mob_list[i].label.Visible = true;
                 if (textBox1.Text != "" &&
-                    !mobs[i].name.Contains(textBox1.Text))
+                    !mob_list[i].name.Contains(textBox1.Text))
                 {
-                    mobs[i].picture.Visible = false;
-                    mobs[i].label.Visible = false;
+                    mob_list[i].picture.Visible = false;
+                    mob_list[i].label.Visible = false;
                 }
 
                 if (comboBox1.Text != "" &&
-                    !mobs[i].land.Contains(comboBox1.Text))
+                    !mob_list[i].land.Contains(comboBox1.Text))
                     //mobs[i].land != comboBox1.Text)
                 {
-                    mobs[i].picture.Visible = false;
-                    mobs[i].label.Visible = false;
+                    mob_list[i].picture.Visible = false;
+                    mob_list[i].label.Visible = false;
                 }
             }
 

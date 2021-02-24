@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MineWiki));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.mobs = new System.Windows.Forms.PictureBox();
             this.animals = new System.Windows.Forms.PictureBox();
             this.blocks = new System.Windows.Forms.PictureBox();
@@ -50,25 +48,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.mechanisms)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.redstone)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(300, 31);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(500, 26);
-            this.textBox1.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(800, 31);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 25);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Поиск";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // mobs
             // 
@@ -244,8 +223,6 @@
             this.Controls.Add(this.blocks);
             this.Controls.Add(this.animals);
             this.Controls.Add(this.mobs);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MineWiki";
@@ -262,9 +239,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox mobs;
         private System.Windows.Forms.PictureBox animals;
         private System.Windows.Forms.PictureBox blocks;
