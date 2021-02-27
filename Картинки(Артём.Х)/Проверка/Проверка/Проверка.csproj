@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animals.cs">
+    <Compile Include="friendly mobs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Animals.Designer.cs">
-      <DependentUpon>Animals.cs</DependentUpon>
+    <Compile Include="friendly mobs.Designer.cs">
+      <DependentUpon>friendly mobs.cs</DependentUpon>
     </Compile>
     <Compile Include="Bildings.cs">
       <SubType>Form</SubType>
@@ -70,19 +70,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mexanism.cs">
+    <Compile Include="MobForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mexanism.Designer.cs">
-      <DependentUpon>Mexanism.cs</DependentUpon>
+    <Compile Include="MobForm.Designer.cs">
+      <DependentUpon>MobForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neutral mobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neutral mobs.Designer.cs">
+      <DependentUpon>neutral mobs.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Mobs.cs">
+    <Compile Include="Hostile mobs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mobs.Designer.cs">
-      <DependentUpon>Mobs.cs</DependentUpon>
+    <Compile Include="Hostile mobs.Designer.cs">
+      <DependentUpon>Hostile mobs.cs</DependentUpon>
     </Compile>
     <Compile Include="Redstone.cs">
       <SubType>Form</SubType>
@@ -90,8 +96,8 @@
     <Compile Include="Redstone.Designer.cs">
       <DependentUpon>Redstone.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Animals.resx">
-      <DependentUpon>Animals.cs</DependentUpon>
+    <EmbeddedResource Include="friendly mobs.resx">
+      <DependentUpon>friendly mobs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bildings.resx">
       <DependentUpon>Bildings.cs</DependentUpon>
@@ -102,11 +108,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mexanism.resx">
-      <DependentUpon>Mexanism.cs</DependentUpon>
+    <EmbeddedResource Include="MobForm.resx">
+      <DependentUpon>MobForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mobs.resx">
-      <DependentUpon>Mobs.cs</DependentUpon>
+    <EmbeddedResource Include="neutral mobs.resx">
+      <DependentUpon>neutral mobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hostile mobs.resx">
+      <DependentUpon>Hostile mobs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

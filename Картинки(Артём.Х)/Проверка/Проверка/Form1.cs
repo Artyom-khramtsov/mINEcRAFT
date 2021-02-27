@@ -52,5 +52,6 @@ namespace Проверка
             Redstone form = new Redstone();
             form.Show();
         }
+
     }
 }

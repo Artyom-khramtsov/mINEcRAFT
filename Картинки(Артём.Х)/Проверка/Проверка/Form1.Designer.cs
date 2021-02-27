@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MineWiki));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.mobs = new System.Windows.Forms.PictureBox();
             this.animals = new System.Windows.Forms.PictureBox();
             this.blocks = new System.Windows.Forms.PictureBox();
@@ -51,34 +49,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.redstone)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
-            // 
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(300, 31);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(500, 26);
-            this.textBox1.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(800, 31);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 25);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Поиск";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // mobs
             // 
             this.mobs.BackColor = System.Drawing.Color.Transparent;
             this.mobs.ErrorImage = null;
             this.mobs.Image = ((System.Drawing.Image)(resources.GetObject("mobs.Image")));
-            this.mobs.Location = new System.Drawing.Point(100, 125);
+            this.mobs.Location = new System.Drawing.Point(100, 65);
             this.mobs.Margin = new System.Windows.Forms.Padding(4);
             this.mobs.Name = "mobs";
-            this.mobs.Size = new System.Drawing.Size(300, 300);
+            this.mobs.Size = new System.Drawing.Size(300, 250);
             this.mobs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.mobs.TabIndex = 5;
             this.mobs.TabStop = false;
@@ -88,10 +67,10 @@
             // 
             this.animals.BackColor = System.Drawing.Color.Transparent;
             this.animals.Image = ((System.Drawing.Image)(resources.GetObject("animals.Image")));
-            this.animals.Location = new System.Drawing.Point(450, 125);
+            this.animals.Location = new System.Drawing.Point(450, 65);
             this.animals.Margin = new System.Windows.Forms.Padding(4);
             this.animals.Name = "animals";
-            this.animals.Size = new System.Drawing.Size(300, 300);
+            this.animals.Size = new System.Drawing.Size(300, 250);
             this.animals.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.animals.TabIndex = 6;
             this.animals.TabStop = false;
@@ -101,10 +80,10 @@
             // 
             this.blocks.BackColor = System.Drawing.Color.Transparent;
             this.blocks.Image = ((System.Drawing.Image)(resources.GetObject("blocks.Image")));
-            this.blocks.Location = new System.Drawing.Point(800, 125);
+            this.blocks.Location = new System.Drawing.Point(800, 65);
             this.blocks.Margin = new System.Windows.Forms.Padding(4);
             this.blocks.Name = "blocks";
-            this.blocks.Size = new System.Drawing.Size(300, 300);
+            this.blocks.Size = new System.Drawing.Size(300, 250);
             this.blocks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.blocks.TabIndex = 7;
             this.blocks.TabStop = false;
@@ -116,12 +95,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(200, 430);
+            this.label1.Location = new System.Drawing.Point(127, 326);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 29);
+            this.label1.Size = new System.Drawing.Size(236, 29);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Мобы";
+            this.label1.Text = "Враждебные мобы";
             // 
             // label2
             // 
@@ -129,12 +108,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(550, 430);
+            this.label2.Location = new System.Drawing.Point(480, 326);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 29);
+            this.label2.Size = new System.Drawing.Size(255, 29);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Животные";
+            this.label2.Text = "Дружелюбные мобы";
             // 
             // label3
             // 
@@ -142,20 +121,20 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(900, 425);
+            this.label3.Location = new System.Drawing.Point(826, 321);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 29);
+            this.label3.Size = new System.Drawing.Size(248, 29);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Блоки";
+            this.label3.Text = "Приручаемые мобы";
             // 
             // building
             // 
             this.building.BackColor = System.Drawing.Color.Transparent;
             this.building.Image = ((System.Drawing.Image)(resources.GetObject("building.Image")));
-            this.building.Location = new System.Drawing.Point(100, 475);
+            this.building.Location = new System.Drawing.Point(100, 431);
             this.building.Name = "building";
-            this.building.Size = new System.Drawing.Size(300, 300);
+            this.building.Size = new System.Drawing.Size(300, 250);
             this.building.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.building.TabIndex = 14;
             this.building.TabStop = false;
@@ -165,9 +144,9 @@
             // 
             this.mechanisms.BackColor = System.Drawing.Color.Transparent;
             this.mechanisms.Image = ((System.Drawing.Image)(resources.GetObject("mechanisms.Image")));
-            this.mechanisms.Location = new System.Drawing.Point(450, 475);
+            this.mechanisms.Location = new System.Drawing.Point(450, 431);
             this.mechanisms.Name = "mechanisms";
-            this.mechanisms.Size = new System.Drawing.Size(300, 300);
+            this.mechanisms.Size = new System.Drawing.Size(300, 250);
             this.mechanisms.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.mechanisms.TabIndex = 15;
             this.mechanisms.TabStop = false;
@@ -177,9 +156,9 @@
             // 
             this.redstone.BackColor = System.Drawing.Color.Transparent;
             this.redstone.Image = ((System.Drawing.Image)(resources.GetObject("redstone.Image")));
-            this.redstone.Location = new System.Drawing.Point(800, 475);
+            this.redstone.Location = new System.Drawing.Point(800, 431);
             this.redstone.Name = "redstone";
-            this.redstone.Size = new System.Drawing.Size(300, 300);
+            this.redstone.Size = new System.Drawing.Size(300, 250);
             this.redstone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.redstone.TabIndex = 16;
             this.redstone.TabStop = false;
@@ -191,12 +170,12 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(186, 788);
+            this.label5.Location = new System.Drawing.Point(128, 684);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 29);
+            this.label5.Size = new System.Drawing.Size(249, 29);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Постройки";
+            this.label5.Text = "Создаваемые мобы";
             // 
             // label6
             // 
@@ -204,12 +183,12 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(532, 788);
+            this.label6.Location = new System.Drawing.Point(467, 684);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 29);
+            this.label6.Size = new System.Drawing.Size(242, 29);
             this.label6.TabIndex = 19;
-            this.label6.Text = "Механизмы";
+            this.label6.Text = "Нейтральные мобы";
             // 
             // label7
             // 
@@ -217,12 +196,12 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(904, 788);
+            this.label7.Location = new System.Drawing.Point(905, 684);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 29);
+            this.label7.Size = new System.Drawing.Size(87, 29);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Редстоун";
+            this.label7.Text = "Боссы";
             // 
             // MineWiki
             // 
@@ -231,7 +210,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1182, 857);
+            this.ClientSize = new System.Drawing.Size(1182, 767);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -244,8 +223,6 @@
             this.Controls.Add(this.blocks);
             this.Controls.Add(this.animals);
             this.Controls.Add(this.mobs);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MineWiki";
@@ -262,9 +239,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox mobs;
         private System.Windows.Forms.PictureBox animals;
         private System.Windows.Forms.PictureBox blocks;
