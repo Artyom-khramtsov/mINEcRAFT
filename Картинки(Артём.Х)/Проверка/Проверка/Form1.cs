@@ -15,18 +15,19 @@ namespace Проверка
         public MineWiki()
         {
             InitializeComponent();
+            Mobs.FillMobsList();
         }
 
         private void picture1_Click(object sender, EventArgs e)
         {
             Mobs form = new Mobs();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void картинка2_Click(object sender, EventArgs e)
         {
             Animals form = new Animals();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void blocksClick(object sender, EventArgs e)
@@ -47,11 +48,17 @@ namespace Проверка
             form.Show();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            Redstone form = new Redstone();
+            Mob_liked form = new Mob_liked();
             form.Show();
         }
 
+        private void MineWiki_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

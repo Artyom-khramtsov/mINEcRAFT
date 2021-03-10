@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mobs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.animals)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blocks)).BeginInit();
@@ -162,7 +163,6 @@
             this.redstone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.redstone.TabIndex = 16;
             this.redstone.TabStop = false;
-            this.redstone.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label5
             // 
@@ -203,6 +203,17 @@
             this.label7.TabIndex = 20;
             this.label7.Text = "Боссы";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Snow;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(172, 32);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "Понравившиеся";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MineWiki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -211,6 +222,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1182, 767);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -227,6 +239,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MineWiki";
             this.Text = "MineWiki";
+            this.Load += new System.EventHandler(this.MineWiki_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mobs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.animals)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blocks)).EndInit();
@@ -251,6 +264,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
     }
 }
 

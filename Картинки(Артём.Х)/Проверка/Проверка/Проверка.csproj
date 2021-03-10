@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="friendly mobs.cs">
+    <Compile Include="Friendly mobs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="friendly mobs.Designer.cs">
-      <DependentUpon>friendly mobs.cs</DependentUpon>
+    <Compile Include="Friendly mobs.Designer.cs">
+      <DependentUpon>Friendly mobs.cs</DependentUpon>
     </Compile>
     <Compile Include="Bildings.cs">
       <SubType>Form</SubType>
@@ -76,6 +76,12 @@
     <Compile Include="MobForm.Designer.cs">
       <DependentUpon>MobForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mob_liked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mob_liked.Designer.cs">
+      <DependentUpon>Mob_liked.cs</DependentUpon>
+    </Compile>
     <Compile Include="neutral mobs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,8 +102,8 @@
     <Compile Include="Redstone.Designer.cs">
       <DependentUpon>Redstone.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="friendly mobs.resx">
-      <DependentUpon>friendly mobs.cs</DependentUpon>
+    <EmbeddedResource Include="Friendly mobs.resx">
+      <DependentUpon>Friendly mobs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bildings.resx">
       <DependentUpon>Bildings.cs</DependentUpon>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MobForm.resx">
       <DependentUpon>MobForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mob_liked.resx">
+      <DependentUpon>Mob_liked.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="neutral mobs.resx">
       <DependentUpon>neutral mobs.cs</DependentUpon>
