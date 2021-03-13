@@ -20,7 +20,7 @@ namespace Проверка
 
         private void picture1_Click(object sender, EventArgs e)
         {
-            Mobs form = new Mobs();
+            Mobs form = new Mobs("Враждебные_мобы");
             form.ShowDialog();
         }
 

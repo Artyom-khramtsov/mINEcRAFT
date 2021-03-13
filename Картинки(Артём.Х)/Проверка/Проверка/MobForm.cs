@@ -15,7 +15,7 @@ namespace Проверка
     public partial class MobForm : Form
     {
         Searchmobs Mob_Like;
-        
+        Searchmobs Mob_dislike;
 
         public MobForm(string MobType)
         {
@@ -30,7 +30,8 @@ namespace Проверка
                 if (MobType == Mobs.mob_list[i].name)
                 {
                     Mob_Like = Mobs.mob_list[i];
-                    
+                    Mob_dislike = Mobs.mob_list[i];
+
                     category = Mobs.mob_list[i].category;
                 }
             }
@@ -56,19 +57,33 @@ namespace Проверка
         private void pictureBox2_Click(object sender, EventArgs e)
         {            
             //Нашли нужного
-            if (!Mobs.mob_list.Contains(Mob_Like))
+            if (!Mobs.Mob_like.Contains(Mob_Like))
             {
                 //Добавляем в список лайкнутых
                 Mobs.Mob_like.Add(Mob_Like);
+                label4.Text = "1";
             }
             else
-                MessageBox.Show("Он и так один из нас");           
+            {
+                Mobs.Mob_like.Remove(Mob_Like);
+                MessageBox.Show("Вы отменили лайк");
+                label4.Text = "0";
+            }
+                
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            
-           
+
+            if (label5.Text == "0")
+            {
+                label5.Text = "1";
+            }
+            else
+            {
+                MessageBox.Show("Вы отменили дизлайк");
+                label5.Text = "0";
+            }
         }
     }
 }

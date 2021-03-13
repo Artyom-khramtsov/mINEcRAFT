@@ -36,6 +36,9 @@ namespace Проверка
         /// </summary>
         public static List<Searchmobs> mob_list = new List<Searchmobs>();
 
+        /// <summary>
+        /// Мобы, у которых лайк стоит
+        /// </summary>
         public static List<Searchmobs> Mob_like = new List<Searchmobs>();
 
         public static List<Searchmobs> Mob_dislike = new List<Searchmobs>();
@@ -81,6 +84,8 @@ namespace Проверка
             mob_list.Add(new Searchmobs("Корова", "Верхний мир", "Дружелюбные_мобы"));
             mob_list.Add(new Searchmobs("Лошадь", "Верхний мир", "Дружелюбные_мобы"));
             mob_list.Add(new Searchmobs("Лиса", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Грибная корова", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Оцелот", "Верхний мир", "Дружелюбные_мобы"));
 
             for (int i = 0; i < mob_list.Count; i++)
             {
@@ -88,16 +93,23 @@ namespace Проверка
             }
         }
 
-        public Mobs()
+        string groupName;
+
+        /// <summary>
+        /// Открыть форму с мобами
+        /// </summary>
+        /// <param name="_groupName">Враждебные мобы</param>
+        public Mobs(string _groupName)
         {
             InitializeComponent();
+            groupName = _groupName;
 
 
             int x = 10;
             int y = 80;
             for (int i = 0; i < mob_list.Count; i++)
             {
-                if (mob_list[i].category != "Враждебные_мобы")
+                if (mob_list[i].category != groupName)
                     continue;
 
                 mob_list[i].picture.BackColor = Color.Transparent;
@@ -141,8 +153,7 @@ namespace Проверка
         {
             PictureBox picture = (PictureBox)sender;
             MobForm form = new MobForm(picture.Tag.ToString());
-            form.Show();
-             
+            form.Show();             
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -151,7 +162,7 @@ namespace Проверка
             int y = 80;
             for (int i = 0; i < mob_list.Count; i++)
             {
-                if (mob_list[i].category != "Враждебные_мобы")
+                if (mob_list[i].category != groupName)
                     continue;
 
                 mob_list[i].picture.Visible = true;

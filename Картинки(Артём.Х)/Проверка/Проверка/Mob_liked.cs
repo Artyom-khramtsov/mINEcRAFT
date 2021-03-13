@@ -33,6 +33,7 @@ namespace Проверка
                 Controls.Add(lb1);
 
                 PictureBox Pb1 = new PictureBox();
+                Pb1.Click += new EventHandler(Mobs.OpenMob);
                 Pb1.BackColor = Color.Transparent;
                 Pb1.Tag = mob.name;
                 Pb1.Location = new Point(x, y);

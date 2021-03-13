@@ -63,13 +63,7 @@ namespace Проверка
 
         }
 
-        private void OpenMob(object sender, EventArgs e)
-        {
-            PictureBox picture = (PictureBox)sender;
-            MobForm form = new MobForm(picture.Tag.ToString());
-            form.Show();
-
-        }
+       
 
         private void Animals_Load(object sender, EventArgs e)
         {
