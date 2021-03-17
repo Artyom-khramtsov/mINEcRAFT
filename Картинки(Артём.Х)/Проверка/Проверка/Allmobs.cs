@@ -86,6 +86,18 @@ namespace Проверка
             mob_list.Add(new Searchmobs("Лиса", "Верхний мир", "Дружелюбные_мобы"));
             mob_list.Add(new Searchmobs("Грибная корова", "Верхний мир", "Дружелюбные_мобы"));
             mob_list.Add(new Searchmobs("Оцелот", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Попугай", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Свинья", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Кролик", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Лосось", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Овца", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Снежный голем", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Спрут", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Страйдер", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Тропическая рыба", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Черепаха", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Деревенский житель", "Верхний мир", "Дружелюбные_мобы"));
+            mob_list.Add(new Searchmobs("Странствующий торговец", "Верхний мир", "Дружелюбные_мобы"));
 
             for (int i = 0; i < mob_list.Count; i++)
             {
@@ -103,8 +115,14 @@ namespace Проверка
         {
             InitializeComponent();
             groupName = _groupName;
+            Text = groupName;
 
-
+            /*if (groupName == "Не знаю")
+            {
+                BackgroundImage = Image.FromFile("../../../../Блоки.jfif");
+                BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            */
             int x = 10;
             int y = 80;
             for (int i = 0; i < mob_list.Count; i++)
@@ -119,11 +137,11 @@ namespace Проверка
                 mob_list[i].picture.SizeMode = PictureBoxSizeMode.Zoom;
                 try
                 {
-                    mob_list[i].picture.Load("../../Враждебные_мобы/" + mob_list[i].name + ".gif");
+                    mob_list[i].picture.Load("../../" + groupName + "/" + mob_list[i].name + ".gif");
                 }
                 catch (Exception)
                 {
-                    mob_list[i].picture.Load("../../Враждебные_мобы/" + mob_list[i].name + ".png");
+                    mob_list[i].picture.Load("../../" + groupName + "/" + mob_list[i].name + ".png");
                 }
                 Controls.Add(mob_list[i].picture);
 
@@ -175,8 +193,8 @@ namespace Проверка
                 }
 
                 if (comboBox1.Text != "" &&
+                    comboBox1.Text != "В каком мире находится?" &&
                     !mob_list[i].land.Contains(comboBox1.Text))
-                    //mobs[i].land != comboBox1.Text)
                 {
                     mob_list[i].picture.Visible = false;
                     mob_list[i].label.Visible = false;
@@ -200,6 +218,10 @@ namespace Проверка
 
 
         }
-      
+
+        private void Mobs_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

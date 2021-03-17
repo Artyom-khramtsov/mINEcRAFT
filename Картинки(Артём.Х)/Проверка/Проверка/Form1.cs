@@ -20,32 +20,27 @@ namespace Проверка
 
         private void picture1_Click(object sender, EventArgs e)
         {
-            Mobs form = new Mobs("Враждебные_мобы");
-            form.ShowDialog();
+            new Mobs("Враждебные_мобы").ShowDialog();
         }
 
         private void картинка2_Click(object sender, EventArgs e)
         {
-            Animals form = new Animals();
-            form.ShowDialog();
+            new Mobs("Дружелюбные_мобы").ShowDialog();
         }
 
         private void blocksClick(object sender, EventArgs e)
         {
-            Blocks form = new Blocks();
-            form.Show();
+            new Mobs("Не знаю").ShowDialog();
         }
 
         private void buildingClick(object sender, EventArgs e)
         {
-            Bildings form = new Bildings();
-            form.Show();
+           
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Mexanism form = new Mexanism();
-            form.Show();
+            
         }
 
         

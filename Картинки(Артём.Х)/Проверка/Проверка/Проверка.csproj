@@ -46,24 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Friendly mobs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Friendly mobs.Designer.cs">
-      <DependentUpon>Friendly mobs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bildings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bildings.Designer.cs">
-      <DependentUpon>Bildings.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Blocks.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Blocks.Designer.cs">
-      <DependentUpon>Blocks.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,35 +64,14 @@
     <Compile Include="Mob_liked.Designer.cs">
       <DependentUpon>Mob_liked.cs</DependentUpon>
     </Compile>
-    <Compile Include="neutral mobs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="neutral mobs.Designer.cs">
-      <DependentUpon>neutral mobs.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Hostile mobs.cs">
+    <Compile Include="Allmobs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hostile mobs.Designer.cs">
-      <DependentUpon>Hostile mobs.cs</DependentUpon>
+    <Compile Include="Allmobs.Designer.cs">
+      <DependentUpon>Allmobs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Redstone.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Redstone.Designer.cs">
-      <DependentUpon>Redstone.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Friendly mobs.resx">
-      <DependentUpon>Friendly mobs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bildings.resx">
-      <DependentUpon>Bildings.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Blocks.resx">
-      <DependentUpon>Blocks.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,11 +81,8 @@
     <EmbeddedResource Include="Mob_liked.resx">
       <DependentUpon>Mob_liked.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="neutral mobs.resx">
-      <DependentUpon>neutral mobs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Hostile mobs.resx">
-      <DependentUpon>Hostile mobs.cs</DependentUpon>
+    <EmbeddedResource Include="Allmobs.resx">
+      <DependentUpon>Allmobs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -135,9 +93,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Redstone.resx">
-      <DependentUpon>Redstone.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

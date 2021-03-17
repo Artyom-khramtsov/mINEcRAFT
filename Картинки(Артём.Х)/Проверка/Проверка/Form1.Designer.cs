@@ -240,6 +240,7 @@
             this.Name = "MineWiki";
             this.Text = "MineWiki";
             this.Load += new System.EventHandler(this.MineWiki_Load);
+            this.Resize += new System.EventHandler(this.button1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.mobs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.animals)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blocks)).EndInit();
