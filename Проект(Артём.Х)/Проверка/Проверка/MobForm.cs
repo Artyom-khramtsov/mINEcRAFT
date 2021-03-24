@@ -16,7 +16,6 @@ namespace Проверка
     {
         Searchmobs Mob_Like;
         Searchmobs Mob_dislike;
-
         public MobForm(string MobType)
         {
             InitializeComponent();

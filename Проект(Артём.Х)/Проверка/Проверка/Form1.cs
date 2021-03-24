@@ -16,6 +16,7 @@ namespace Проверка
         {
             InitializeComponent();
             Mobs.FillMobsList();
+            Mobs.FillWords();
         }
 
         private void picture1_Click(object sender, EventArgs e)
@@ -40,7 +41,7 @@ namespace Проверка
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            
+            new Mobs("Нейтральные_мобы").ShowDialog();
         }
 
         
@@ -54,6 +55,32 @@ namespace Проверка
         private void MineWiki_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void redstone_Click(object sender, EventArgs e)
+        {
+            new Mobs("Боссы").ShowDialog();
+        }
+
+        public void button2_Click(object sender, EventArgs e)
+        {
+            RenameAll(Mobs.Ruswords);
+        }
+
+        public void button3_Click(object sender, EventArgs e)
+        {
+            RenameAll(Mobs.Engwords);
+        }
+
+        void RenameAll(Dictionary<string, string> Words)
+        {
+            label1.Text = Words["Враждебные мобы"];
+            label2.Text = Words["Дружелюбные мобы"];
+            label3.Text = Words["Приручаемые мобы"];
+            label5.Text = Words["Создаваемые мобы"];
+            label6.Text = Words["Нейтральные мобы"];
+            label7.Text = Words["Боссы"];
+            button1.Text = Words["Понравившиеся"];
         }
     }
 }

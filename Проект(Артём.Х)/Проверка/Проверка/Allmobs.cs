@@ -43,6 +43,38 @@ namespace Проверка
 
         public static List<Searchmobs> Mob_dislike = new List<Searchmobs>();
 
+        public static Dictionary<string, string> Ruswords = new Dictionary<string, string>();
+        public static Dictionary<string, string> Engwords = new Dictionary<string, string>();
+
+        public static void FillWords()
+        {
+            Ruswords.Add("Понравившиеся", "Понравившиеся");
+            Engwords.Add("Понравившиеся", "Liked ones");
+            Ruswords.Add("Враждебные мобы", "Враждебные мобы");
+            Engwords.Add("Враждебные мобы", "Hostile mobs");
+            Ruswords.Add("Дружелюбные мобы", "Дружелюбные мобы");
+            Engwords.Add("Дружелюбные мобы", "Friendly mobs");
+            Ruswords.Add("Приручаемые мобы", "Приручаемые мобы");
+            Engwords.Add("Приручаемые мобы", "Tame mobs");
+            Ruswords.Add("Создаваемые мобы", "Создаваемые мобы");
+            Engwords.Add("Создаваемые мобы", "Created mobs");
+            Ruswords.Add("Нейтральные мобы", "Нейтральные мобы");
+            Engwords.Add("Нейтральные мобы", "Neutral mobs");
+            Ruswords.Add("Боссы", "Боссы");
+            Engwords.Add("Боссы", "Bosses");
+
+            Ruswords.Add("В каком мире находится?", "В каком мире находится?");
+            Engwords.Add("В каком мире находится?", "What world is it in?");
+            Ruswords.Add("Поиск", "Поиск");
+            Engwords.Add("Поиск", "Search");
+        }
+
+        void RenameAll(Dictionary<string, string> Words)
+        {
+            comboBox1.Text = Words["В каком мире находится?"];
+            button1.Text = Words["Поиск"];
+
+        }
         /// <summary>
         /// Формируем список всех мобов
         /// </summary>
@@ -105,6 +137,8 @@ namespace Проверка
             mob_list.Add(new Searchmobs("Иссушитель", "Верхний мир, Ад, Край", "Создаваемые_мобы"));
             mob_list.Add(new Searchmobs("Снежный голем", "Верхний мир", "Создаваемые_мобы"));
             mob_list.Add(new Searchmobs("Железный голем", "Верхний мир", "Создаваемые_мобы"));
+            mob_list.Add(new Searchmobs("Иссушитель", "Верхний мир, Ад, Край", "Боссы"));
+            mob_list.Add(new Searchmobs("Дракон края", "Край", "Боссы"));
 
             for (int i = 0; i < mob_list.Count; i++)
             {
