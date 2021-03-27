@@ -46,6 +46,8 @@ namespace Проверка
         public static Dictionary<string, string> Ruswords = new Dictionary<string, string>();
         public static Dictionary<string, string> Engwords = new Dictionary<string, string>();
 
+        public static string Language = "Русский";
+
         public static void FillWords()
         {
             Ruswords.Add("Понравившиеся", "Понравившиеся");
@@ -73,70 +75,70 @@ namespace Проверка
         {
             comboBox1.Text = Words["В каком мире находится?"];
             button1.Text = Words["Поиск"];
-
+            Text = Words[groupName];
         }
         /// <summary>
         /// Формируем список всех мобов
         /// </summary>
         public static void FillMobsList()
         {
-            mob_list.Add(new Searchmobs("Ифрит", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Зомби-наездник", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Крипер", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Утопленник", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Древний страж", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Чешуйница Края", "Верхний мир, Ад, Край", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Вызыватель", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Гаст", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Страж", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Хоглин", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Кадавр", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Лавовый куб", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Фантом", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Жестокий пинглин", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Разбойник", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Разоритель", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Шалкер", "Край", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Чешуйница", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Скелет", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Cкелет-наездник", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Слизень", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Зимогор", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Досаждатель", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Поборник", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Ведьма", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Скелет-иссушитель", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Зоглин", "Ад", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Зомби", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Зомби-житель", "Верхний мир", "Враждебные_мобы"));
-            mob_list.Add(new Searchmobs("Летучая мышь", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Кошка", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Курица", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Треска", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Корова", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Лошадь", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Лиса", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Грибная корова", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Оцелот", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Попугай", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Свинья", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Кролик", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Лосось", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Овца", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Снежный голем", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Спрут", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Страйдер", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Тропическая рыба", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Черепаха", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Деревенский житель", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Странствующий торговец", "Верхний мир", "Дружелюбные_мобы"));
-            mob_list.Add(new Searchmobs("Попугай", "Верхний мир", "Приручаемые_мобы"));
-            mob_list.Add(new Searchmobs("Кошка", "Верхний мир", "Приручаемые_мобы"));
-            mob_list.Add(new Searchmobs("Лама", "Верхний мир", "Приручаемые_мобы"));
-            mob_list.Add(new Searchmobs("Волк", "Верхний мир", "Приручаемые_мобы"));
-            mob_list.Add(new Searchmobs("Иссушитель", "Верхний мир, Ад, Край", "Создаваемые_мобы"));
-            mob_list.Add(new Searchmobs("Снежный голем", "Верхний мир", "Создаваемые_мобы"));
-            mob_list.Add(new Searchmobs("Железный голем", "Верхний мир", "Создаваемые_мобы"));
+            mob_list.Add(new Searchmobs("Ифрит", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Зомби-наездник", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Крипер", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Утопленник", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Древний страж", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Чешуйница Края", "Верхний мир, Ад, Край", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Вызыватель", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Гаст", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Страж", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Хоглин", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Кадавр", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Лавовый куб", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Фантом", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Жестокий пинглин", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Разбойник", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Разоритель", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Шалкер", "Край", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Чешуйница", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Скелет", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Cкелет-наездник", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Слизень", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Зимогор", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Досаждатель", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Поборник", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Ведьма", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Скелет-иссушитель", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Зоглин", "Ад", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Зомби", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Зомби-житель", "Верхний мир", "Враждебные мобы"));
+            mob_list.Add(new Searchmobs("Летучая мышь", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Кошка", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Курица", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Треска", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Корова", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Лошадь", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Лиса", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Грибная корова", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Оцелот", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Попугай", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Свинья", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Кролик", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Лосось", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Овца", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Снежный голем", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Спрут", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Страйдер", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Тропическая рыба", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Черепаха", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Деревенский житель", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Странствующий торговец", "Верхний мир", "Дружелюбные мобы"));
+            mob_list.Add(new Searchmobs("Попугай", "Верхний мир", "Приручаемые мобы"));
+            mob_list.Add(new Searchmobs("Кошка", "Верхний мир", "Приручаемые мобы"));
+            mob_list.Add(new Searchmobs("Лама", "Верхний мир", "Приручаемые мобы"));
+            mob_list.Add(new Searchmobs("Волк", "Верхний мир", "Приручаемые мобы"));
+            mob_list.Add(new Searchmobs("Иссушитель", "Верхний мир, Ад, Край", "Создаваемые мобы"));
+            mob_list.Add(new Searchmobs("Снежный голем", "Верхний мир", "Создаваемые мобы"));
+            mob_list.Add(new Searchmobs("Железный голем", "Верхний мир", "Создаваемые мобы"));
             mob_list.Add(new Searchmobs("Иссушитель", "Верхний мир, Ад, Край", "Боссы"));
             mob_list.Add(new Searchmobs("Дракон края", "Край", "Боссы"));
 
@@ -157,6 +159,11 @@ namespace Проверка
             InitializeComponent();
             groupName = _groupName;
             Text = groupName;
+
+            if (Language == "Английский")
+            {
+                RenameAll(Engwords);
+            }
 
             /*if (groupName == "Не знаю")
             {

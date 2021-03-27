@@ -21,27 +21,27 @@ namespace Проверка
 
         private void picture1_Click(object sender, EventArgs e)
         {
-            new Mobs("Враждебные_мобы").ShowDialog();
+            new Mobs("Враждебные мобы").ShowDialog();
         }
 
         private void картинка2_Click(object sender, EventArgs e)
         {
-            new Mobs("Дружелюбные_мобы").ShowDialog();
+            new Mobs("Дружелюбные мобы").ShowDialog();
         }
 
         private void blocksClick(object sender, EventArgs e)
         {
-            new Mobs("Приручаемые_мобы").ShowDialog();
+            new Mobs("Приручаемые мобы").ShowDialog();
         }
 
         private void buildingClick(object sender, EventArgs e)
         {
-            new Mobs("Создаваемые_мобы").ShowDialog();
+            new Mobs("Создаваемые мобы").ShowDialog();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            new Mobs("Нейтральные_мобы").ShowDialog();
+            new Mobs("Нейтральные мобы").ShowDialog();
         }
 
         
@@ -65,11 +65,13 @@ namespace Проверка
         public void button2_Click(object sender, EventArgs e)
         {
             RenameAll(Mobs.Ruswords);
+            Mobs.Language = "Русский";
         }
 
         public void button3_Click(object sender, EventArgs e)
         {
             RenameAll(Mobs.Engwords);
+            Mobs.Language = "Английский";
         }
 
         void RenameAll(Dictionary<string, string> Words)
