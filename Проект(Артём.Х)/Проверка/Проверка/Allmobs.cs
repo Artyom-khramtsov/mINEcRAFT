@@ -65,6 +65,66 @@ namespace Проверка
             Ruswords.Add("Боссы", "Боссы");
             Engwords.Add("Боссы", "Bosses");
 
+            Ruswords.Add("Ифрит", "Ифрит");
+            Engwords.Add("Ифрит", "Blaze");
+            Ruswords.Add("Cкелет-наездник", "Cкелет-наездник");
+            Engwords.Add("Cкелет-наездник", "Spider Jockey");
+            Ruswords.Add("Ведьма", "Ведьма");
+            Engwords.Add("Ведьма", "Witch");
+            Ruswords.Add("Вызыватель", "Вызыватель");
+            Engwords.Add("Вызыватель", "Evoker");
+            Ruswords.Add("Гаст", "Гаст");
+            Engwords.Add("Гаст", "Ghast");
+            Ruswords.Add("Досаждатель", "Досаждатель");
+            Engwords.Add("Досаждатель", "Vex");
+            Ruswords.Add("Древний страж", "Древний страж");
+            Engwords.Add("Древний страж", "Elder guardian");
+            Ruswords.Add("Жестокий пинглин", "Жестокий пинглин");
+            Engwords.Add("Жестокий пинглин", "Piglin Brute");
+            Ruswords.Add("Зимогор", "Зимогор");
+            Engwords.Add("Зимогор", "Stray");
+            Ruswords.Add("Зоглин", "Зоглин");
+            Engwords.Add("Зоглин", "Zoglin");
+            Ruswords.Add("Зомби", "Зомби");
+            Engwords.Add("Зомби", "Zombie");
+            Ruswords.Add("Зомби-житель", "Зомби-житель");
+            Engwords.Add("Зомби-житель", "Zombie villagers");
+            Ruswords.Add("Зомби-наездник", "Зомби-наездник");
+            Engwords.Add("Зомби-наездник", "Chicken Jockey");
+            Ruswords.Add("Кадавр", "Кадавр");
+            Engwords.Add("Кадавр", "Husk");
+            Ruswords.Add("Крипер", "Крипер");
+            Engwords.Add("Крипер", "Creeper");
+            Ruswords.Add("Лавовый куб", "Лавовый куб");
+            Engwords.Add("Лавовый куб", "Magma Cube");
+            Ruswords.Add("Поборник", "Поборник");
+            Engwords.Add("Поборник", "Vindicator");
+            Ruswords.Add("Разбойник", "Разбойник");
+            Engwords.Add("Разбойник", "Pillager");
+            Ruswords.Add("Разоритель", "Разоритель");
+            Engwords.Add("Разоритель", "Ravager");
+            Ruswords.Add("Скелет", "Скелет");
+            Engwords.Add("Скелет", "Skeleton");
+            Ruswords.Add("Скелет-иссушитель", "Скелет-иссушитель");
+            Engwords.Add("Скелет-иссушитель", "Wither Skeleton");
+            Ruswords.Add("Слизень", "Слизень");
+            Engwords.Add("Слизень", "Slime");
+            Ruswords.Add("Страж", "Страж");
+            Engwords.Add("Страж", "Guardian");
+            Ruswords.Add("Утопленник", "Утопленник");
+            Engwords.Add("Утопленник", "Drowned");
+            Ruswords.Add("Фантом", "Фантом");
+            Engwords.Add("Фантом", "Phantom");
+            Ruswords.Add("Хоглин", "Хоглин");
+            Engwords.Add("Хоглин", "Hoglin");
+            Ruswords.Add("Чешуйница Края", "Чешуйница Края");
+            Engwords.Add("Чешуйница Края", "Endermite");
+            Ruswords.Add("Чешуйница", "Чешуйница");
+            Engwords.Add("Чешуйница", "Silverfish");
+            Ruswords.Add("Шалкер", "Шалкер");
+            Engwords.Add("Шалкер", "Shulker");
+
+
             Ruswords.Add("В каком мире находится?", "В каком мире находится?");
             Engwords.Add("В каком мире находится?", "What world is it in?");
             Ruswords.Add("Поиск", "Поиск");
@@ -141,6 +201,19 @@ namespace Проверка
             mob_list.Add(new Searchmobs("Железный голем", "Верхний мир", "Создаваемые мобы"));
             mob_list.Add(new Searchmobs("Иссушитель", "Верхний мир, Ад, Край", "Боссы"));
             mob_list.Add(new Searchmobs("Дракон края", "Край", "Боссы"));
+            mob_list.Add(new Searchmobs("Лама", "Верхний мир", "Приручаемые мобы"));
+            mob_list.Add(new Searchmobs("Железный голем", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Волк", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Белый медведь", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Дельфин", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Зомбифицированный пиглин", "Ад", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Иглобрюх", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Панда", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Паук", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Пещерный паук", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Пиглин", "Ад", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Пчела", "Верхний мир", "Нейтральные мобы"));
+            mob_list.Add(new Searchmobs("Странник Края", "Край", "Нейтральные мобы"));
 
             for (int i = 0; i < mob_list.Count; i++)
             {
@@ -202,6 +275,12 @@ namespace Проверка
                 mob_list[i].label.Size = new Size(300, 29);
                 mob_list[i].label.TabIndex = 31;
                 mob_list[i].label.Text = mob_list[i].name;
+                try
+                {
+                    if (Language == "Английский")
+                        mob_list[i].label.Text = Engwords[mob_list[i].name];
+                }
+                catch (Exception) { }
                 Controls.Add(mob_list[i].label);
 
 
@@ -262,9 +341,6 @@ namespace Проверка
                     }
                 }
             }
-
-
-
         }
 
         private void Mobs_Load(object sender, EventArgs e)
