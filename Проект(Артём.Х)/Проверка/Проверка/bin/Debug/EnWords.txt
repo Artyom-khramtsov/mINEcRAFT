@@ -1,0 +1,59 @@
+Понравившиеся; Liked ones
+Враждебные мобы; Hostile mobs
+Дружелюбные мобы; Friendly mobs
+Приручаемые мобы; Tame mobs
+Создаваемые мобы; Created mobs
+Нейтральные мобы; Neutral mobs
+Боссы; Bosses
+Ифрит; Blaze
+Cкелет-наездник; Spider Jockey
+Ведьма; Witch
+Вызыватель; Evoker
+Гаст; Ghast
+Досаждатель; Vex
+Древний страж; Elder guardian
+Жестокий пинглин; Piglin Brute
+Зимогор; Stray
+Зоглин; Zoglin
+Зомби; Zombie
+Зомби-житель; Zombie villagers
+Зомби-наездник; Chicken Jockey
+Кадавр; Husk
+Крипер; Creeper
+Лавовый куб; Magma Cube
+Поборник; Vindicator
+Разбойник; Pillager
+Разоритель; Ravager
+Скелет; Skeleton
+Скелет-иссушитель; Wither Skeleton
+Слизень; Slime
+Страж; Guardian
+Утопленник; Drowned
+Фантом; Phantom
+Хоглин; Hoglin
+Чешуйница Края; Endermite
+Чешуйница; Silverfish
+Шалкер; Shulker
+	    Engwords.Add("Грибная корова; Mooshroom
+Деревенский житель; Villager
+Корова; Cow
+Кошка; Cat
+Кролик; Rabbit
+Курица; Chicken
+Летучая мышь; Bat
+Лиса; Fox
+Лосось; Salmon
+Лошадь; Horse
+Овца; Sheep
+Оцелот; Ocelot
+Попугай; Parrot
+Свинья; Pig
+Снежный голем; Snow Golem
+Спрут; Squid
+Страйдер; Strider
+Странствующий торговец; Wandering Trader
+Треска; Cod
+Тропическая рыба; Tropical Fish
+Черепаха; Turtle‌
+В каком мире находится?; What world is it in?
+Поиск; Search
