@@ -15,8 +15,6 @@ namespace Проверка
         public MineWiki()
         {
             InitializeComponent();
-            Mobs.FillMobsList();
-            Mobs.FillWords();
         }
 
         private void picture1_Click(object sender, EventArgs e)
@@ -83,6 +81,22 @@ namespace Проверка
             label6.Text = Words["Нейтральные мобы"];
             label7.Text = Words["Боссы"];
             button1.Text = Words["Понравившиеся"];
+        }
+
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new Info("Край").ShowDialog();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            new Info("Верхний мир").ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new Info("Нижний мир").ShowDialog();
         }
     }
 }

@@ -16,6 +16,8 @@ namespace Проверка
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Mobs.FillMobsList();
+            Mobs.FillWords();
             Application.Run(new MineWiki());
         }
     }

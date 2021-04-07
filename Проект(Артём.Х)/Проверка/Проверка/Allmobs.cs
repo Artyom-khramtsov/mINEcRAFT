@@ -11,6 +11,14 @@ using System.Windows.Forms;
 
 namespace Проверка
 {
+    //Измернение
+    public struct Mer
+    {
+        public PictureBox picture;
+        public Label label;
+        public string name;
+    }
+    //Моб
     public struct Searchmobs
     {
         public PictureBox picture;
@@ -36,6 +44,10 @@ namespace Проверка
         /// Все мобы
         /// </summary>
         public static List<Searchmobs> mob_list = new List<Searchmobs>();
+        /// <summary>
+        /// Все измерения
+        /// </summary>
+        public static List<Mer> world = new List<Mer>();
 
         /// <summary>
         /// Мобы, у которых лайк стоит
@@ -92,6 +104,14 @@ namespace Проверка
             for (int i = 0; i < mob_list.Count; i++)
             {
                 mob_list[i].picture.Click += new EventHandler(OpenMob);
+            }
+
+            lines = File.ReadAllLines("Measurements.txt");
+            foreach (string line in lines)
+            {
+                string[] mir = line.Split(new string[] { "" }, StringSplitOptions.None);
+                world.Add(new Mer { name = mir[0], picture = new PictureBox(), label = new Label()});
+            
             }
         }
 
@@ -218,6 +238,16 @@ namespace Проверка
         }
 
         private void Mobs_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -34,7 +34,7 @@ Cкелет-наездник; Spider Jockey
 Чешуйница Края; Endermite
 Чешуйница; Silverfish
 Шалкер; Shulker
-	    Engwords.Add("Грибная корова; Mooshroom
+Грибная корова; Mooshroom
 Деревенский житель; Villager
 Корова; Cow
 Кошка; Cat
@@ -57,3 +57,16 @@ Cкелет-наездник; Spider Jockey
 Черепаха; Turtle‌
 В каком мире находится?; What world is it in?
 Поиск; Search
+Белый медведь; Polar Bear
+Дельфин; Dolphin
+Железный голем; Iron Golem
+Зомбифицированный пиглин; Zombie Pigman
+Иглобрюх; Puffer
+Лама; Lama
+Панда; Panda
+Паук; Spider
+Пещерный паук; Cave Spider
+Пиглин; Piglin
+Пчела; Bee
+Странник Края; Enderman
+Волк; Wolf

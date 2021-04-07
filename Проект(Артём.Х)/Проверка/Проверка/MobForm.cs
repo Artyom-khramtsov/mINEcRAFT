@@ -84,5 +84,10 @@ namespace Проверка
                 label5.Text = "0";
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

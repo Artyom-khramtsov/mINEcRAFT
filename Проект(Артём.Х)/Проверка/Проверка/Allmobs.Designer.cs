@@ -36,7 +36,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(800, 31);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 25);
             this.button1.TabIndex = 6;
@@ -48,10 +48,11 @@
             // 
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(300, 31);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(500, 22);
             this.textBox1.TabIndex = 5;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // comboBox1
             // 
@@ -60,11 +61,13 @@
             "Ад",
             "Край",
             "Верхний мир"});
-            this.comboBox1.Location = new System.Drawing.Point(3, 29);
+            this.comboBox1.Location = new System.Drawing.Point(3, 30);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(270, 24);
+            this.comboBox1.Size = new System.Drawing.Size(271, 24);
             this.comboBox1.TabIndex = 79;
             this.comboBox1.Text = "В каком мире находится?";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Mobs
             // 
@@ -73,7 +76,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Gray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1203, 853);
+            this.ClientSize = new System.Drawing.Size(1212, 875);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
