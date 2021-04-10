@@ -150,6 +150,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MobForm";
             this.Text = "HostileMobs";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

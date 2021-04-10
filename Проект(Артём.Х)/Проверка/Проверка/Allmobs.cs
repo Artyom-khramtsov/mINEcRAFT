@@ -148,7 +148,7 @@ namespace Проверка
                 mob_list[i].picture.BackColor = Color.Transparent;
                 mob_list[i].picture.Tag = mob_list[i].name;
                 mob_list[i].picture.Location = new Point(x, y);
-                mob_list[i].picture.Size = new Size(300, 300);
+                mob_list[i].picture.Size = new Size(290, 290);
                 mob_list[i].picture.SizeMode = PictureBoxSizeMode.Zoom;
                 try
                 {
@@ -158,15 +158,15 @@ namespace Проверка
                 {
                     mob_list[i].picture.Load("../../" + groupName + "/" + mob_list[i].name + ".png");
                 }
-                Controls.Add(mob_list[i].picture);
+                panel1.Controls.Add(mob_list[i].picture);
 
 
                 mob_list[i].label.AutoSize = true;
                 mob_list[i].label.BackColor = Color.Transparent;
                 mob_list[i].label.ForeColor = Color.Red;
                 mob_list[i].label.Font = new Font("Microsoft Sans Serif", 15F);
-                mob_list[i].label.Location = new Point(x + 100, y + 300);
-                mob_list[i].label.Size = new Size(300, 29);
+                mob_list[i].label.Location = new Point(x + 100, y + 290);
+                mob_list[i].label.Size = new Size(290, 29);
                 mob_list[i].label.TabIndex = 31;
                 mob_list[i].label.Text = mob_list[i].name;
                 try
@@ -175,7 +175,7 @@ namespace Проверка
                         mob_list[i].label.Text = Engwords[mob_list[i].name];
                 }
                 catch (Exception) { }
-                Controls.Add(mob_list[i].label);
+                panel1.Controls.Add(mob_list[i].label);
 
 
                 x = x + 300;

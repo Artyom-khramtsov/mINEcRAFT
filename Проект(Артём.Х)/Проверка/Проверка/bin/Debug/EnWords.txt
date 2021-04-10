@@ -70,3 +70,5 @@ Cкелет-наездник; Spider Jockey
 Пчела; Bee
 Странник Края; Enderman
 Волк; Wolf
+Иссушитель; Wither
+Дракон края; Ender Dragon

@@ -22,12 +22,12 @@ namespace Проверка
 
         string groupName;
 
-        public Info(string w)
+        public Info(string world)
         {
             InitializeComponent();
 
-            Text = MobType;
-            label2.Text = MobType;
+            Text = world;
+            label2.Text = world;
 
             if (Mobs.Language == "Английский")
             {
@@ -36,25 +36,26 @@ namespace Проверка
 
             try
             {
-                label3.Text = File.ReadAllText("../../" + MobType + ".txt");
-                label1.Text = File.ReadAllText("../../" + MobType + "2.txt");
+                label33.Text = File.ReadAllText("../../" + world + ".txt");
+           
             }
             catch (Exception) { }
 
             try
             {
-                pictureBox1.Load("../../" + MobType + ".gif");
+                BackgroundImage = Image.FromFile("../../" + world + ".gif");
             }
             catch (Exception)
             {
-                pictureBox1.Load("../../"+ MobType + ".png");
+                BackgroundImage = Image.FromFile("../../" + world + ".png");
+                //pictureBox4.Load("../../"+ world + ".png");
             }
 
 
 
         }
 
-        }
+        
 
       
     }

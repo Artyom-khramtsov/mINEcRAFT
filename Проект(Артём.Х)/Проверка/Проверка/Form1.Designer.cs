@@ -60,7 +60,7 @@
             this.mobs.BackColor = System.Drawing.Color.Transparent;
             this.mobs.ErrorImage = null;
             this.mobs.Image = ((System.Drawing.Image)(resources.GetObject("mobs.Image")));
-            this.mobs.Location = new System.Drawing.Point(100, 65);
+            this.mobs.Location = new System.Drawing.Point(58, 59);
             this.mobs.Margin = new System.Windows.Forms.Padding(4);
             this.mobs.Name = "mobs";
             this.mobs.Size = new System.Drawing.Size(300, 250);
@@ -73,7 +73,7 @@
             // 
             this.animals.BackColor = System.Drawing.Color.Transparent;
             this.animals.Image = ((System.Drawing.Image)(resources.GetObject("animals.Image")));
-            this.animals.Location = new System.Drawing.Point(450, 65);
+            this.animals.Location = new System.Drawing.Point(408, 59);
             this.animals.Margin = new System.Windows.Forms.Padding(4);
             this.animals.Name = "animals";
             this.animals.Size = new System.Drawing.Size(300, 250);
@@ -86,10 +86,10 @@
             // 
             this.blocks.BackColor = System.Drawing.Color.Transparent;
             this.blocks.Image = ((System.Drawing.Image)(resources.GetObject("blocks.Image")));
-            this.blocks.Location = new System.Drawing.Point(800, 65);
+            this.blocks.Location = new System.Drawing.Point(743, 454);
             this.blocks.Margin = new System.Windows.Forms.Padding(4);
             this.blocks.Name = "blocks";
-            this.blocks.Size = new System.Drawing.Size(300, 250);
+            this.blocks.Size = new System.Drawing.Size(300, 173);
             this.blocks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.blocks.TabIndex = 7;
             this.blocks.TabStop = false;
@@ -101,7 +101,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(127, 326);
+            this.label1.Location = new System.Drawing.Point(85, 320);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(236, 29);
@@ -114,7 +114,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(480, 326);
+            this.label2.Location = new System.Drawing.Point(438, 320);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(255, 29);
@@ -127,7 +127,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(826, 321);
+            this.label3.Location = new System.Drawing.Point(769, 670);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(248, 29);
@@ -138,9 +138,9 @@
             // 
             this.building.BackColor = System.Drawing.Color.Transparent;
             this.building.Image = ((System.Drawing.Image)(resources.GetObject("building.Image")));
-            this.building.Location = new System.Drawing.Point(100, 431);
+            this.building.Location = new System.Drawing.Point(752, 77);
             this.building.Name = "building";
-            this.building.Size = new System.Drawing.Size(300, 250);
+            this.building.Size = new System.Drawing.Size(300, 217);
             this.building.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.building.TabIndex = 14;
             this.building.TabStop = false;
@@ -150,7 +150,7 @@
             // 
             this.mechanisms.BackColor = System.Drawing.Color.Transparent;
             this.mechanisms.Image = ((System.Drawing.Image)(resources.GetObject("mechanisms.Image")));
-            this.mechanisms.Location = new System.Drawing.Point(450, 431);
+            this.mechanisms.Location = new System.Drawing.Point(58, 415);
             this.mechanisms.Name = "mechanisms";
             this.mechanisms.Size = new System.Drawing.Size(300, 250);
             this.mechanisms.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -162,7 +162,7 @@
             // 
             this.redstone.BackColor = System.Drawing.Color.Transparent;
             this.redstone.Image = ((System.Drawing.Image)(resources.GetObject("redstone.Image")));
-            this.redstone.Location = new System.Drawing.Point(800, 431);
+            this.redstone.Location = new System.Drawing.Point(408, 415);
             this.redstone.Name = "redstone";
             this.redstone.Size = new System.Drawing.Size(300, 250);
             this.redstone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -176,7 +176,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(128, 684);
+            this.label5.Location = new System.Drawing.Point(776, 320);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(249, 29);
@@ -189,7 +189,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(467, 684);
+            this.label6.Location = new System.Drawing.Point(75, 668);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(242, 29);
@@ -202,7 +202,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(905, 684);
+            this.label7.Location = new System.Drawing.Point(513, 668);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 29);
@@ -225,7 +225,7 @@
             this.button2.BackColor = System.Drawing.Color.Snow;
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(178, 0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(46, 32);
@@ -238,7 +238,8 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Snow;
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(230, 0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(46, 32);
@@ -249,9 +250,10 @@
             // 
             // button5
             // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.BackColor = System.Drawing.Color.Snow;
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(1134, 0);
+            this.button5.Location = new System.Drawing.Point(1058, 0);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(46, 32);
             this.button5.TabIndex = 25;
@@ -261,9 +263,10 @@
             // 
             // button4
             // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.BackColor = System.Drawing.Color.Snow;
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(1003, 0);
+            this.button4.Location = new System.Drawing.Point(927, 0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(125, 32);
             this.button4.TabIndex = 26;
@@ -273,9 +276,10 @@
             // 
             // button6
             // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.BackColor = System.Drawing.Color.Snow;
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(872, 0);
+            this.button6.Location = new System.Drawing.Point(796, 0);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(125, 32);
             this.button6.TabIndex = 27;
@@ -290,7 +294,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1182, 767);
+            this.ClientSize = new System.Drawing.Size(1106, 731);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
@@ -310,11 +314,11 @@
             this.Controls.Add(this.animals);
             this.Controls.Add(this.mobs);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MineWiki";
             this.Text = "MineWiki";
             this.Load += new System.EventHandler(this.MineWiki_Load);
-            this.Resize += new System.EventHandler(this.button1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.mobs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.animals)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blocks)).EndInit();
