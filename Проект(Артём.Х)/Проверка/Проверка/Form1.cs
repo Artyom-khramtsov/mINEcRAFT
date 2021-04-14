@@ -81,6 +81,10 @@ namespace Проверка
             label6.Text = Words["Нейтральные мобы"];
             label7.Text = Words["Боссы"];
             button1.Text = Words["Понравившиеся"];
+            button7.Text = Words["О мобах"];
+            button6.Text = Words["Край"];
+            button4.Text = Words["Верхний мир"];
+            button5.Text = Words["Нижний мир"];
         }
 
 
@@ -97,6 +101,12 @@ namespace Проверка
         private void button5_Click(object sender, EventArgs e)
         {
             new Info("Нижний мир").ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+          
+            new InfoMobs("О мобах").ShowDialog();
         }
     }
 }

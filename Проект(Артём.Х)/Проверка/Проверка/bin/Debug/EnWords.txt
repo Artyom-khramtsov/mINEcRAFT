@@ -72,3 +72,7 @@ Cкелет-наездник; Spider Jockey
 Волк; Wolf
 Иссушитель; Wither
 Дракон края; Ender Dragon
+О мобах; About mobs
+Край; The End
+Верхний мир; The Overworld
+Нижний мир; The Nether

@@ -58,6 +58,12 @@
     <Compile Include="Info.Designer.cs">
       <DependentUpon>Info.cs</DependentUpon>
     </Compile>
+    <Compile Include="InfoMobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoMobs.Designer.cs">
+      <DependentUpon>InfoMobs.cs</DependentUpon>
+    </Compile>
     <Compile Include="MobForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Info.resx">
       <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoMobs.resx">
+      <DependentUpon>InfoMobs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MobForm.resx">
       <DependentUpon>MobForm.cs</DependentUpon>

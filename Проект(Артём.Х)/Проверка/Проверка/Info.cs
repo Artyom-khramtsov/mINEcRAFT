@@ -16,11 +16,13 @@ namespace Проверка
      
         void RenameAll(Dictionary<string, string> Words)
         {
+          
+
 
         }
 
 
-        string groupName;
+    
 
         public Info(string world)
         {

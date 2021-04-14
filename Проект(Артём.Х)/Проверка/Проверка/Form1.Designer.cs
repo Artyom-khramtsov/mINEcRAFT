@@ -47,6 +47,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mobs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.animals)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blocks)).BeginInit();
@@ -253,11 +254,11 @@
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.BackColor = System.Drawing.Color.Snow;
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(1058, 0);
+            this.button5.Location = new System.Drawing.Point(984, 0);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(46, 32);
+            this.button5.Size = new System.Drawing.Size(120, 32);
             this.button5.TabIndex = 25;
-            this.button5.Text = "Ад";
+            this.button5.Text = "Нижний мир";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -266,9 +267,9 @@
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.BackColor = System.Drawing.Color.Snow;
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(927, 0);
+            this.button4.Location = new System.Drawing.Point(845, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 32);
+            this.button4.Size = new System.Drawing.Size(140, 32);
             this.button4.TabIndex = 26;
             this.button4.Text = "Верхний мир";
             this.button4.UseVisualStyleBackColor = false;
@@ -279,13 +280,26 @@
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.BackColor = System.Drawing.Color.Snow;
             this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(796, 0);
+            this.button6.Location = new System.Drawing.Point(714, 0);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(125, 32);
+            this.button6.Size = new System.Drawing.Size(140, 32);
             this.button6.TabIndex = 27;
             this.button6.Text = "Край";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button7.BackColor = System.Drawing.Color.Snow;
+            this.button7.ForeColor = System.Drawing.Color.Black;
+            this.button7.Location = new System.Drawing.Point(583, 0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(140, 32);
+            this.button7.TabIndex = 28;
+            this.button7.Text = "О мобах";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // MineWiki
             // 
@@ -295,6 +309,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1106, 731);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
@@ -349,6 +364,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
 
