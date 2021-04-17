@@ -70,6 +70,12 @@
     <Compile Include="MobForm.Designer.cs">
       <DependentUpon>MobForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MobUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MobUC.Designer.cs">
+      <DependentUpon>MobUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mob_liked.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MobForm.resx">
       <DependentUpon>MobForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MobUC.resx">
+      <DependentUpon>MobUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mob_liked.resx">
       <DependentUpon>Mob_liked.cs</DependentUpon>

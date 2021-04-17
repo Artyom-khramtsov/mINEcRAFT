@@ -15,9 +15,7 @@ namespace Проверка
     {
         void RenameAll(Dictionary<string, string> Words)
         {
-            button1.Text = Words["Нижний мир"];
-            button1.Text = Words["Верхний мир"];
-            button1.Text = Words["Край"];
+
         }
 
         public InfoMobs(string Infomobs)
