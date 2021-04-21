@@ -154,7 +154,7 @@ namespace Проверка
                 {
                     mob_list[i].picture.Load("../../" + groupName + "/" + mob_list[i].name + ".gif");
                 }
-                catch (Exception)
+                catch (Exception E)
                 {
                     mob_list[i].picture.Load("../../" + groupName + "/" + mob_list[i].name + ".png");
                 }

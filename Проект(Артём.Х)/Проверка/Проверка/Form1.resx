@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mobs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAeAB4AAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
         AAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0M
@@ -593,7 +593,7 @@
         ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 </value>
   </data>
-  <data name="animals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAeAB4AAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
         AAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0M
@@ -905,7 +905,7 @@
         UUUAFFFFABRRRQB//9k=
 </value>
   </data>
-  <data name="blocks.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAA/7JJREFUeF6k/fe35dmW1QfesNf7e865x3t/rvfem7jh03sTmZE+IzMjIjMy0ruX
@@ -2691,7 +2691,7 @@
         PBjgAt6Lnu0oOx3nNQpGhC3Rg7zX02bdB87dF/FeZ4SFQSe/3DX9f+Etf1H//FAuAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="building.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIgAAADbCAMAAACBfik5AAAABGdBTUEAALGPC/xhBQAAAGxQTFRF////
         azwIiYqOcnp+eXp+e4OHLg0AbXV4gYqOl6GmnqmuqamuHgACmGEUi1MOTCsFbEQOoaGmJSUmkJqeAAAA
@@ -2749,7 +2749,7 @@
         ZQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="mechanisms.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxISEBUQEBIVFRUWFhUbFhgXEhUVFhgYFxgYGBcaFRkY
         HSggGBolGxgZIzIhJSorLi8uGx82ODMtNygtLiv/2wBDAQoKCg4NDhoQEBotJR8lMSstLS0vLS0tLS0r
@@ -2887,7 +2887,7 @@
         EIAQhCAEIQgBCEIAQhCAEIQgBCEIAQhCAEIQgBCEIAQhCAEIQgBCEIAQhCAEIQgBCEIAQhCA/9k=
 </value>
   </data>
-  <data name="redstone.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxISEBUREhMVFRUXFxUVGBcYFRcXFhUYGBcWFxUWFRUY
         HSggGBolHRcVIjEiJSkrLi4uGB8zODMtNygtLiv/2wBDAQoKCg4NDhsQEBstJiAlLy0tLS4rLS0tLS0t

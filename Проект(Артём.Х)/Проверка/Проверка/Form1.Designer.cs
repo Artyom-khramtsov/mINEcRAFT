@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MineWiki));
-            this.mobs = new System.Windows.Forms.PictureBox();
-            this.animals = new System.Windows.Forms.PictureBox();
-            this.blocks = new System.Windows.Forms.PictureBox();
+            this.pb1 = new System.Windows.Forms.PictureBox();
+            this.pb2 = new System.Windows.Forms.PictureBox();
+            this.pb6 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.building = new System.Windows.Forms.PictureBox();
-            this.mechanisms = new System.Windows.Forms.PictureBox();
-            this.redstone = new System.Windows.Forms.PictureBox();
+            this.pb3 = new System.Windows.Forms.PictureBox();
+            this.pb4 = new System.Windows.Forms.PictureBox();
+            this.pb5 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -48,53 +48,53 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.mobs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.animals)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blocks)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.building)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mechanisms)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.redstone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
             this.SuspendLayout();
             // 
-            // mobs
+            // pb1
             // 
-            this.mobs.BackColor = System.Drawing.Color.Transparent;
-            this.mobs.ErrorImage = null;
-            this.mobs.Image = ((System.Drawing.Image)(resources.GetObject("mobs.Image")));
-            this.mobs.Location = new System.Drawing.Point(58, 59);
-            this.mobs.Margin = new System.Windows.Forms.Padding(4);
-            this.mobs.Name = "mobs";
-            this.mobs.Size = new System.Drawing.Size(300, 250);
-            this.mobs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.mobs.TabIndex = 5;
-            this.mobs.TabStop = false;
-            this.mobs.Click += new System.EventHandler(this.picture1_Click);
+            this.pb1.BackColor = System.Drawing.Color.Transparent;
+            this.pb1.ErrorImage = null;
+            this.pb1.Image = ((System.Drawing.Image)(resources.GetObject("pb1.Image")));
+            this.pb1.Location = new System.Drawing.Point(58, 59);
+            this.pb1.Margin = new System.Windows.Forms.Padding(4);
+            this.pb1.Name = "pb1";
+            this.pb1.Size = new System.Drawing.Size(300, 250);
+            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb1.TabIndex = 5;
+            this.pb1.TabStop = false;
+            this.pb1.Click += new System.EventHandler(this.picture1_Click);
             // 
-            // animals
+            // pb2
             // 
-            this.animals.BackColor = System.Drawing.Color.Transparent;
-            this.animals.Image = ((System.Drawing.Image)(resources.GetObject("animals.Image")));
-            this.animals.Location = new System.Drawing.Point(408, 59);
-            this.animals.Margin = new System.Windows.Forms.Padding(4);
-            this.animals.Name = "animals";
-            this.animals.Size = new System.Drawing.Size(300, 250);
-            this.animals.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.animals.TabIndex = 6;
-            this.animals.TabStop = false;
-            this.animals.Click += new System.EventHandler(this.картинка2_Click);
+            this.pb2.BackColor = System.Drawing.Color.Transparent;
+            this.pb2.Image = ((System.Drawing.Image)(resources.GetObject("pb2.Image")));
+            this.pb2.Location = new System.Drawing.Point(408, 59);
+            this.pb2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb2.Name = "pb2";
+            this.pb2.Size = new System.Drawing.Size(300, 250);
+            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb2.TabIndex = 6;
+            this.pb2.TabStop = false;
+            this.pb2.Click += new System.EventHandler(this.картинка2_Click);
             // 
-            // blocks
+            // pb6
             // 
-            this.blocks.BackColor = System.Drawing.Color.Transparent;
-            this.blocks.Image = ((System.Drawing.Image)(resources.GetObject("blocks.Image")));
-            this.blocks.Location = new System.Drawing.Point(743, 454);
-            this.blocks.Margin = new System.Windows.Forms.Padding(4);
-            this.blocks.Name = "blocks";
-            this.blocks.Size = new System.Drawing.Size(300, 173);
-            this.blocks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.blocks.TabIndex = 7;
-            this.blocks.TabStop = false;
-            this.blocks.Click += new System.EventHandler(this.blocksClick);
+            this.pb6.BackColor = System.Drawing.Color.Transparent;
+            this.pb6.Image = ((System.Drawing.Image)(resources.GetObject("pb6.Image")));
+            this.pb6.Location = new System.Drawing.Point(743, 454);
+            this.pb6.Margin = new System.Windows.Forms.Padding(4);
+            this.pb6.Name = "pb6";
+            this.pb6.Size = new System.Drawing.Size(300, 173);
+            this.pb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb6.TabIndex = 7;
+            this.pb6.TabStop = false;
+            this.pb6.Click += new System.EventHandler(this.blocksClick);
             // 
             // label1
             // 
@@ -135,41 +135,41 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Приручаемые мобы";
             // 
-            // building
+            // pb3
             // 
-            this.building.BackColor = System.Drawing.Color.Transparent;
-            this.building.Image = ((System.Drawing.Image)(resources.GetObject("building.Image")));
-            this.building.Location = new System.Drawing.Point(752, 77);
-            this.building.Name = "building";
-            this.building.Size = new System.Drawing.Size(300, 217);
-            this.building.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.building.TabIndex = 14;
-            this.building.TabStop = false;
-            this.building.Click += new System.EventHandler(this.buildingClick);
+            this.pb3.BackColor = System.Drawing.Color.Transparent;
+            this.pb3.Image = ((System.Drawing.Image)(resources.GetObject("pb3.Image")));
+            this.pb3.Location = new System.Drawing.Point(752, 77);
+            this.pb3.Name = "pb3";
+            this.pb3.Size = new System.Drawing.Size(300, 217);
+            this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb3.TabIndex = 14;
+            this.pb3.TabStop = false;
+            this.pb3.Click += new System.EventHandler(this.buildingClick);
             // 
-            // mechanisms
+            // pb4
             // 
-            this.mechanisms.BackColor = System.Drawing.Color.Transparent;
-            this.mechanisms.Image = ((System.Drawing.Image)(resources.GetObject("mechanisms.Image")));
-            this.mechanisms.Location = new System.Drawing.Point(58, 415);
-            this.mechanisms.Name = "mechanisms";
-            this.mechanisms.Size = new System.Drawing.Size(300, 250);
-            this.mechanisms.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.mechanisms.TabIndex = 15;
-            this.mechanisms.TabStop = false;
-            this.mechanisms.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pb4.BackColor = System.Drawing.Color.Transparent;
+            this.pb4.Image = ((System.Drawing.Image)(resources.GetObject("pb4.Image")));
+            this.pb4.Location = new System.Drawing.Point(58, 415);
+            this.pb4.Name = "pb4";
+            this.pb4.Size = new System.Drawing.Size(300, 250);
+            this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb4.TabIndex = 15;
+            this.pb4.TabStop = false;
+            this.pb4.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // redstone
+            // pb5
             // 
-            this.redstone.BackColor = System.Drawing.Color.Transparent;
-            this.redstone.Image = ((System.Drawing.Image)(resources.GetObject("redstone.Image")));
-            this.redstone.Location = new System.Drawing.Point(408, 415);
-            this.redstone.Name = "redstone";
-            this.redstone.Size = new System.Drawing.Size(300, 250);
-            this.redstone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.redstone.TabIndex = 16;
-            this.redstone.TabStop = false;
-            this.redstone.Click += new System.EventHandler(this.redstone_Click);
+            this.pb5.BackColor = System.Drawing.Color.Transparent;
+            this.pb5.Image = ((System.Drawing.Image)(resources.GetObject("pb5.Image")));
+            this.pb5.Location = new System.Drawing.Point(408, 415);
+            this.pb5.Name = "pb5";
+            this.pb5.Size = new System.Drawing.Size(300, 250);
+            this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb5.TabIndex = 16;
+            this.pb5.TabStop = false;
+            this.pb5.Click += new System.EventHandler(this.redstone_Click);
             // 
             // label5
             // 
@@ -319,42 +319,42 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.redstone);
-            this.Controls.Add(this.mechanisms);
-            this.Controls.Add(this.building);
+            this.Controls.Add(this.pb5);
+            this.Controls.Add(this.pb4);
+            this.Controls.Add(this.pb3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.blocks);
-            this.Controls.Add(this.animals);
-            this.Controls.Add(this.mobs);
+            this.Controls.Add(this.pb6);
+            this.Controls.Add(this.pb2);
+            this.Controls.Add(this.pb1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MineWiki";
             this.Text = "MineWiki";
             this.Load += new System.EventHandler(this.MineWiki_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.mobs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.animals)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blocks)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.building)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mechanisms)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.redstone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox mobs;
-        private System.Windows.Forms.PictureBox animals;
-        private System.Windows.Forms.PictureBox blocks;
+        private System.Windows.Forms.PictureBox pb1;
+        private System.Windows.Forms.PictureBox pb2;
+        private System.Windows.Forms.PictureBox pb6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox building;
-        private System.Windows.Forms.PictureBox mechanisms;
-        private System.Windows.Forms.PictureBox redstone;
+        private System.Windows.Forms.PictureBox pb3;
+        private System.Windows.Forms.PictureBox pb4;
+        private System.Windows.Forms.PictureBox pb5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
