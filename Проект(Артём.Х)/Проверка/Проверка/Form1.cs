@@ -6,7 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Mail;
 using System.Windows.Forms;
+
 
 namespace Проверка
 {
@@ -107,6 +110,11 @@ namespace Проверка
         {
           
             new InfoMobs("О мобах").ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

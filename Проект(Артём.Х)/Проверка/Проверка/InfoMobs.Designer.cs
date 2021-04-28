@@ -70,6 +70,7 @@
             this.ClientSize = new System.Drawing.Size(1182, 855);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label33);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InfoMobs";
             this.Text = "InfoMobs";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
