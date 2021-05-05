@@ -94,26 +94,9 @@ namespace Проверка
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // отправитель - устанавливаем адрес и отображаемое в письме имя
-            MailAddress from = new MailAddress("khramtsov.art@gmail.com", "Гость");
-            // кому отправляем
-            MailAddress to = new MailAddress("khramtsov.art@gmail.com");
-            // создаем объект сообщения
-            MailMessage m = new MailMessage(from, to);
-            // тема письма
-            m.Subject = "Вопрос о мобе";
-            // текст письма
-            m.Body = "Непонятен моб " + Text + Environment.NewLine + 
-                "Обьясните пожалуйста";
+            Send form = new Send();
+            form.Show();
 
-            // адрес smtp-сервера и порт, с которого будем отправлять письмо
-            SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
-            // логин и пароль
-            smtp.Credentials = new NetworkCredential("khramtsov.art@gmail.com", "пароль");
-            smtp.EnableSsl = true;
-            smtp.Send(m);
-
-            MessageBox.Show("Ушло");
         }
     }
 }
