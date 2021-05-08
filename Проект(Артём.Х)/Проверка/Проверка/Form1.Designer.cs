@@ -50,6 +50,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.button8 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
@@ -220,7 +221,7 @@
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(210, 43);
+            this.button1.Size = new System.Drawing.Size(169, 43);
             this.button1.TabIndex = 21;
             this.button1.Text = "Понравившиеся";
             this.button1.UseVisualStyleBackColor = false;
@@ -233,7 +234,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(219, 3);
+            this.button2.Location = new System.Drawing.Point(178, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(64, 43);
             this.button2.TabIndex = 22;
@@ -248,7 +249,7 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(289, 3);
+            this.button3.Location = new System.Drawing.Point(248, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(64, 43);
             this.button3.TabIndex = 23;
@@ -331,10 +332,12 @@
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnCount = 4;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
+            this.tableLayoutPanel2.Controls.Add(this.button8, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.button2, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.button3, 2, 0);
@@ -342,8 +345,19 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(356, 49);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(519, 49);
             this.tableLayoutPanel2.TabIndex = 30;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(318, 3);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(198, 43);
+            this.button8.TabIndex = 31;
+            this.button8.Text = "Обратная связь";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // MineWiki
             // 
@@ -408,6 +422,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button button8;
     }
 }
 

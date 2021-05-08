@@ -116,5 +116,11 @@ namespace Проверка
         {
            
         }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            Send form = new Send();
+            form.Show();
+        }
     }
 }

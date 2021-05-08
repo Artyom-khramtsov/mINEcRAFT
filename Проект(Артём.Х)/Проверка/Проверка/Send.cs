@@ -31,21 +31,32 @@ namespace Проверка
             m.Subject = comboBox1.Text;
             // текст письма
             m.Body = textBox2.Text +
-                 Environment.NewLine + textBox1.Text;
-
-
-            /*
-            File.WriteAllText("Заказ.csv", "Название...")
-            foreach (Game game1 in Form1.korzina)
+                 Environment.NewLine + "Телефон(либо почта): " + textBox1.Text;
+            if (Address1 != "")
             {
-                File.AppendAllText("Заказ.csv",
-                    Environment.NewLine +
-            game1.name + "," + game.genre + "," + game1.price);
+                Attachment attachment = new Attachment(Address1);
+                attachment.Name = "1.jpg";
+                m.Attachments.Add(attachment);
             }
 
-            m.Attachments.Add(new Attachment(Заказ.сsv));
+            if (Address2 != "")
+            {
+                Attachment attachment = new Attachment(Address2);
+                attachment.Name = "2.jpg";
+                m.Attachments.Add(attachment);
+            }
+            /*
+            File.WriteAllText("Ucheb.csv","Автор,Предмет,Рейтинг");
+            foreach (Uchebniki uch in Form1.zakladka)
+            {
+                File.AppendAllText("Ucheb.csv",
+                    Environment.NewLine +
+                    uch.Author + "," + uch.discipline+"," + uch.Rating.ToString());
 
-            */
+             */
+        
+
+            
 
             // адрес smtp-сервера и порт, с которого будем отправлять письмо
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
@@ -55,6 +66,27 @@ namespace Проверка
             smtp.Send(m);
 
             MessageBox.Show("Ушло");
+        }
+
+        string Address1 = "";
+        string Address2 = "";
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                Address1 = openFileDialog1.FileName;
+                pictureBox1.Load(Address1);
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                Address2 = openFileDialog1.FileName;
+                pictureBox2.Load(Address2);
+            }
         }
     }
 }

@@ -94,8 +94,7 @@ namespace Проверка
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Send form = new Send();
-            form.Show();
+            
 
         }
     }
