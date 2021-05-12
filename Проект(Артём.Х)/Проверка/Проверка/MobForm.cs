@@ -53,6 +53,15 @@ namespace Проверка
             }
 
             
+            if (Mobs.Mob_like.Contains(Mob_Like))
+            {
+                label4.Text = "1";
+            }
+            else
+            {
+                label4.Text = "0";
+            }
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

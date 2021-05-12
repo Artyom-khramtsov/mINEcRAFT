@@ -87,7 +87,8 @@ namespace Проверка
             button7.Text = Words["О мобах"];
             button6.Text = Words["Край"];
             button4.Text = Words["Верхний мир"];
-            button5.Text = Words["Нижний мир"];
+            button5.Text = Words["Нижний мир"]; 
+            button8.Text = Words["Обратная связь"];
         }
 
 

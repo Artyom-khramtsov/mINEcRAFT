@@ -14,10 +14,26 @@ namespace Проверка
 {
     public partial class Send : Form
     {
+        void RenameAll(Dictionary<string, string> Words)
+        {
+            label1.Text = Words["Тема"];
+            label4.Text = Words["Прикрепить файл"];
+            label2.Text = Words["Текст"];
+            button1.Text = Words["Готово"];
+            label3.Text = Words["Обратная связь(телефон либо почта)"];
+        }
+
+
         public Send()
         {
             InitializeComponent();
+            if (Mobs.Language == "Английский")
+            {
+                RenameAll(Mobs.Engwords);
+            }
         }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -45,19 +61,8 @@ namespace Проверка
                 attachment.Name = "2.jpg";
                 m.Attachments.Add(attachment);
             }
-            /*
-            File.WriteAllText("Ucheb.csv","Автор,Предмет,Рейтинг");
-            foreach (Uchebniki uch in Form1.zakladka)
-            {
-                File.AppendAllText("Ucheb.csv",
-                    Environment.NewLine +
-                    uch.Author + "," + uch.discipline+"," + uch.Rating.ToString());
-
-             */
+          
         
-
-            
-
             // адрес smtp-сервера и порт, с которого будем отправлять письмо
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
             // логин и пароль

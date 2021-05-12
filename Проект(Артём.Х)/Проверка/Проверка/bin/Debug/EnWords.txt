@@ -4,6 +4,12 @@
 Приручаемые мобы; Tame mobs
 Создаваемые мобы; Created mobs
 Нейтральные мобы; Neutral mobs
+Текст; Text
+Прикрепить файл; Attach a file
+Тема; Topic
+Готово; Done
+Обратная связь(телефон либо почта); Feedback(phone or email)
+Обратная связь; Feedback
 Боссы; Bosses
 Ифрит; Blaze
 Cкелет-наездник; Spider Jockey
