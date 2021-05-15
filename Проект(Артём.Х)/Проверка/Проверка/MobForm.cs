@@ -47,7 +47,7 @@ namespace Проверка
             {
                 pictureBox1.Load("../../" + category + "/" + MobType + ".gif");
             }
-            catch (Exception)
+            catch (Exception) 
             {
                 pictureBox1.Load("../../" + category + "/" + MobType + ".png");
             }
